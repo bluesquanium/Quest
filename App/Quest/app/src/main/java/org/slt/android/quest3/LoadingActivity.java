@@ -7,7 +7,6 @@ import android.os.Handler;
 import android.widget.ImageView;
 
 public class LoadingActivity extends Activity {
-    ImageView logo;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         Intent intent = getIntent();
@@ -15,8 +14,8 @@ public class LoadingActivity extends Activity {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_loading);
-        logo = (ImageView)findViewById(R.id.logo);
-        logo.bringToFront();
+        ImageView image = (ImageView)findViewById(R.id.logoImageView);
+        image.setImageResource(R.drawable.loading);
         startLoading();
     }
     private void startLoading() {
