@@ -1,4 +1,4 @@
-package org.slt.android.quest3;
+package org.slt.android.quest;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -9,6 +9,7 @@ import android.widget.ImageView;
 public class LoadingActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        //TODO: 현재 이거 잘 작동 안하는 것 같음. 나중에 확인하자.
         Intent intent = getIntent();
         this.setResult(RESULT_OK,intent);
 

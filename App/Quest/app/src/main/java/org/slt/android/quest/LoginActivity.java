@@ -1,4 +1,4 @@
-package org.slt.android.quest3;
+package org.slt.android.quest;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -9,6 +9,7 @@ import android.view.inputmethod.EditorInfo;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class LoginActivity extends Activity {
 
@@ -64,14 +65,16 @@ public class LoginActivity extends Activity {
         mEmailSignInButton.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Toast.makeText(getApplicationContext(),
+                        "도진현 바보", Toast.LENGTH_LONG).show();
             }
         });
 
         mEmailSignUpButton.setOnClickListener(new OnClickListener(){
             @Override
             public void onClick(View view) {
-
+                Toast.makeText(getApplicationContext(),
+                        "진진돌이 멍청이", Toast.LENGTH_LONG).show();
             }
         });
 

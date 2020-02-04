@@ -1,8 +1,12 @@
-package org.slt.android.quest3;
+package org.slt.android.quest;
+
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     public static final int RESULT_OK = 100;
@@ -18,13 +22,19 @@ public class MainActivity extends AppCompatActivity {
         startActivityForResult(intent,START_LOADING);
     }
 
+    @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data)
     {
+        super.onActivityResult(requestCode, resultCode, data);
+
         switch(requestCode){
             case START_LOADING:
-                if(resultCode == RESULT_OK){
-                    Intent intent = new Intent(this, LoginActivity.class);
-                    startActivityForResult(intent,START_LOGIN);
+                if(true){
+                    Intent intent = new Intent(getApplicationContext(), LoginActivity.class);
+                    startActivityForResult(intent, START_LOGIN);
+                } else {
+                    Toast.makeText(getApplicationContext(),
+                            "Error Loading login page", Toast.LENGTH_LONG).show();
                 }
                 break;
         }

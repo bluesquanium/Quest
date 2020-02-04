@@ -1,4 +1,4 @@
-package org.slt.android.quest3;
+package org.slt.android.quest;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("org.slt.android.quest3", appContext.getPackageName());
+        assertEquals("org.slt.android.quest", appContext.getPackageName());
     }
 }

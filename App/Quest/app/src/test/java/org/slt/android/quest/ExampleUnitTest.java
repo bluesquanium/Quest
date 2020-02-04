@@ -1,4 +1,4 @@
-package org.slt.android.quest3;
+package org.slt.android.quest;
 
 import org.junit.Test;
 
