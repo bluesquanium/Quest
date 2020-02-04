@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 28
     defaultConfig {
-        applicationId "org.slt.android.quest3"
+        applicationId "org.slt.android.quest"
         minSdkVersion 15
         targetSdkVersion 28
         versionCode 1
