@@ -20,9 +20,9 @@ public class ProfileActivity extends AppCompatActivity {
         }
     }
 
-    public void onMainMenuButtonClicked(View v) {
-        if (MYACITIVITY != Const.ACTIVITYMAIN) {
-            Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+    public void onMapMenuButtonClicked(View v) {
+        if (MYACITIVITY != Const.ACTIVITYMAP) {
+            Intent intent = new Intent(getApplicationContext(), MapActivity.class);
             startActivity(intent);
         }
     }
