@@ -2,26 +2,87 @@ package org.slt.android.quest;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
-import android.view.View.OnClickListener;
 import android.view.inputmethod.EditorInfo;
-import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
 public class LoginActivity extends Activity {
+
+
 
     // UI references.
 
     private EditText mEmailView;
     private EditText mPasswordView;
 
+
+    public void login(View view){
+        Toast.makeText(this, "곽창근 개띨빡", Toast.LENGTH_SHORT).show();
+
+        // ID 및 Password를 Log로 확인하기
+        mEmailView = (EditText) findViewById(R.id.email);
+        mPasswordView = (EditText) findViewById(R.id.password);
+        Log.i("Id", mEmailView.getText().toString());
+        Log.i("password", mPasswordView.getText().toString());
+    }
+
+    public void findid(View view){
+        Toast.makeText(this, "아이디 까먹었냐 바보야", Toast.LENGTH_SHORT).show();
+
+    }
+
+    public void findpassword(View view){
+        Toast.makeText(this, "비밀번호도 까먹었냐 바보야", Toast.LENGTH_SHORT).show();
+
+    }
+
+    public void facebooklogin(View view){
+
+
+    }
+
+    public void googlelogin(View view){
+
+    }
+
+    public void naverlogin(View view){
+
+    }
+
+    public void kakaologin(View view){
+
+    }
+
+    public void signup(View view){
+        Toast.makeText(this, "오이이잉?", Toast.LENGTH_SHORT).show();
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+
+        // Image restore
+
+        ImageView facebooklogo = (ImageView) findViewById(R.id.facebookImageView);
+        facebooklogo.setImageResource(R.drawable.facebook);
+
+        ImageView googlelogo = (ImageView) findViewById(R.id.googleImageView);
+        googlelogo.setImageResource(R.drawable.google);
+
+        ImageView naverlogo = (ImageView) findViewById(R.id.naverImageView);
+        naverlogo.setImageResource(R.drawable.naver);
+
+        ImageView kakaologo = (ImageView) findViewById(R.id.kakaoImageView);
+        kakaologo.setImageResource(R.drawable.kakao);
+
+        ImageView logo = (ImageView) findViewById(R.id.logoImageView);
+        logo.setImageResource(R.drawable.loading);
 
         // Set up the login form.
 
@@ -50,31 +111,6 @@ public class LoginActivity extends Activity {
                     return true;
                 }
                 return false;
-            }
-        });
-
-        // Button
-
-        Button mEmailSignInButton = (Button) findViewById(R.id.email_sign_in_button); // sign in button
-
-        Button mEmailSignUpButton = (Button) findViewById(R.id.email_sign_up_button); // sign up button
-
-
-        // event handler
-
-        mEmailSignInButton.setOnClickListener(new OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Toast.makeText(getApplicationContext(),
-                        "도진현 바보", Toast.LENGTH_LONG).show();
-            }
-        });
-
-        mEmailSignUpButton.setOnClickListener(new OnClickListener(){
-            @Override
-            public void onClick(View view) {
-                Toast.makeText(getApplicationContext(),
-                        "진진돌이 멍청이", Toast.LENGTH_LONG).show();
             }
         });
 
