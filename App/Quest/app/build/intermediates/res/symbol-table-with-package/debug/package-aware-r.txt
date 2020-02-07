@@ -739,7 +739,6 @@ id icon
 id icon_group
 id ifRoom
 id image
-id imageView
 id info
 id inputUserView
 id invisible
@@ -752,6 +751,7 @@ id line1
 id line3
 id listMode
 id list_item
+id loadingMainView
 id loginAskView
 id loginButton
 id loginButtonView

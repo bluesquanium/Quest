@@ -76,8 +76,8 @@ public final class R {
         public static final int bottom = 0x7f070021;
         public static final int end = 0x7f070038;
         public static final int gone = 0x7f070044;
-        public static final int invisible = 0x7f070053;
-        public static final int left = 0x7f070058;
+        public static final int invisible = 0x7f070052;
+        public static final int left = 0x7f070057;
         public static final int packed = 0x7f070073;
         public static final int parent = 0x7f070074;
         public static final int percent = 0x7f070077;

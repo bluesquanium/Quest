@@ -81,6 +81,9 @@ public class LoginActivity extends Activity {
         ImageView kakaologo = (ImageView) findViewById(R.id.kakaoImageView);
         kakaologo.setImageResource(R.drawable.kakao);
 
+        ImageView logo = (ImageView) findViewById(R.id.logoImageView);
+        logo.setImageResource(R.drawable.loading);
+
         // Set up the login form.
 
         mEmailView = (EditText) findViewById(R.id.email);
