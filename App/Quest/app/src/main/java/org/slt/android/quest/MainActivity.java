@@ -6,9 +6,12 @@ import android.os.Bundle;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
+    public static final int MYACITIVITY = Const.ACTIVITYMAIN;
+
     public static final int RESULT_OK = 100;
 
     public static final int START_LOADING = 101;
@@ -37,6 +40,27 @@ public class MainActivity extends AppCompatActivity {
                             "Error Loading login page", Toast.LENGTH_LONG).show();
                 }
                 break;
+        }
+    }
+
+    public void onProfileMenuButtonClicked(View v) {
+        if (MYACITIVITY != Const.ACTIVITYPROFILE) {
+            Intent intent = new Intent(getApplicationContext(), ProfileActivity.class);
+            startActivity(intent);
+        }
+    }
+
+    public void onMainMenuButtonClicked(View v) {
+        if (MYACITIVITY != Const.ACTIVITYMAIN) {
+            Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+            startActivity(intent);
+        }
+    }
+
+    public void onChatMenuButtonClicked(View v) {
+        if (MYACITIVITY != Const.ACTIVITYCHAT) {
+            Intent intent = new Intent(getApplicationContext(), ChatActivity.class);
+            startActivity(intent);
         }
     }
 }
