@@ -18,10 +18,16 @@
         </activity>
         <activity
             android:name=".LoadingActivity"
-            android:theme="@string/title_activity_login" />
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
         <activity
             android:name=".LoginActivity"
             android:theme="@string/title_activity_login" />
+        <activity
+            android:name=".ChatActivity" />
+        <activity
+            android:name=".MapActivity" />
+        <activity
+            android:name=".ProfileActivity" />
 
     </application>
 

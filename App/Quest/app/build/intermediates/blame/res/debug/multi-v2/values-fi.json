@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\DJH\\Desktop\\Quest\\Quest\\App\\Quest\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-fi\\values-fi.xml",
+            "outputFile": "C:\\Users\\Bluesquanium\\Quest\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-fi\\values-fi.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\DJH\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\f9d0c9ff7dc69816eddbdf1c4e533913\\res\\values-fi\\values-fi.xml",
+                    "source": "C:\\Users\\Bluesquanium\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\a48e3f79d4b249e81fa4b5d9fb920bfc\\res\\values-fi\\values-fi.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\DJH\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ca51354576efa18c8c5a988e0907a7f9\\res\\values-fi\\values-fi.xml",
+                    "source": "C:\\Users\\Bluesquanium\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\4d9db6ae03def255a4a5623545b5bf97\\res\\values-fi\\values-fi.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
