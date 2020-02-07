@@ -31,9 +31,18 @@
         <activity
             android:name="org.slt.android.quest.LoginActivity"
             android:theme="@string/title_activity_login" />
-        <activity android:name="org.slt.android.quest.ChatActivity" />
-        <activity android:name="org.slt.android.quest.MapActivity" />
-        <activity android:name="org.slt.android.quest.ProfileActivity" />
+        <activity
+            android:name="org.slt.android.quest.ChatActivity"
+            android:launchMode="singleTop" />
+        <activity
+            android:name="org.slt.android.quest.MapActivity"
+            android:launchMode="singleTop" />
+        <activity
+            android:name="org.slt.android.quest.ProfileActivity"
+            android:launchMode="singleTop" />
+        <activity
+            android:name="org.slt.android.quest.CreateAccountActivity"
+            android:launchMode="singleTop" />
     </application>
 
 </manifest>

@@ -23,11 +23,17 @@
             android:name=".LoginActivity"
             android:theme="@string/title_activity_login" />
         <activity
-            android:name=".ChatActivity" />
+            android:name=".ChatActivity"
+            android:launchMode="singleTop"/>
         <activity
-            android:name=".MapActivity" />
+            android:name=".MapActivity"
+            android:launchMode="singleTop"/>
         <activity
-            android:name=".ProfileActivity" />
+            android:name=".ProfileActivity"
+            android:launchMode="singleTop"/>
+        <activity
+            android:name=".CreateAccountActivity"
+            android:launchMode="singleTop"/>
 
     </application>
 

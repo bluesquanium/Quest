@@ -694,11 +694,13 @@ id beginning
 id blocking
 id bottom
 id buttonPanel
+id cancelButton
 id center
 id center_horizontal
 id center_vertical
 id chains
 id chatMenuButton
+id chatView
 id checkbox
 id chronometer
 id clip_horizontal
@@ -706,6 +708,8 @@ id clip_vertical
 id collapseActionView
 id content
 id contentPanel
+id createAccountTextView
+id createAccountView
 id custom
 id customPanel
 id decor_content_parent
@@ -774,12 +778,14 @@ id normal
 id notification_background
 id notification_main_column
 id notification_main_column_container
+id okButton
 id packed
 id parent
 id parentPanel
 id password
 id percent
 id profileMenuButton
+id profileView
 id progress_circular
 id progress_horizontal
 id radio
@@ -873,6 +879,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_chat
+layout activity_create_account
 layout activity_loading
 layout activity_login
 layout activity_main

@@ -15,6 +15,7 @@ public class MapActivity extends AppCompatActivity {
 
     public void onProfileMenuButtonClicked(View v) {
         if (MYACITIVITY != Const.ACTIVITYPROFILE) {
+            finish();
             Intent intent = new Intent(getApplicationContext(), ProfileActivity.class);
             startActivity(intent);
         }
@@ -22,6 +23,7 @@ public class MapActivity extends AppCompatActivity {
 
     public void onMapMenuButtonClicked(View v) {
         if (MYACITIVITY != Const.ACTIVITYMAP) {
+            finish();
             Intent intent = new Intent(getApplicationContext(), MapActivity.class);
             startActivity(intent);
         }
@@ -29,6 +31,7 @@ public class MapActivity extends AppCompatActivity {
 
     public void onChatMenuButtonClicked(View v) {
         if (MYACITIVITY != Const.ACTIVITYCHAT) {
+            finish();
             Intent intent = new Intent(getApplicationContext(), ChatActivity.class);
             startActivity(intent);
         }
