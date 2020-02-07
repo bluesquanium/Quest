@@ -18,10 +18,22 @@
         </activity>
         <activity
             android:name=".LoadingActivity"
-            android:theme="@string/title_activity_login" />
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
         <activity
             android:name=".LoginActivity"
             android:theme="@string/title_activity_login" />
+        <activity
+            android:name=".ChatActivity"
+            android:launchMode="singleTop"/>
+        <activity
+            android:name=".MapActivity"
+            android:launchMode="singleTop"/>
+        <activity
+            android:name=".ProfileActivity"
+            android:launchMode="singleTop"/>
+        <activity
+            android:name=".CreateAccountActivity"
+            android:launchMode="singleTop"/>
 
     </application>
 

@@ -16,6 +16,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity android:name="org.slt.android.quest.MainActivity" >
             <intent-filter>
@@ -26,10 +27,22 @@
         </activity>
         <activity
             android:name="org.slt.android.quest.LoadingActivity"
-            android:theme="@string/title_activity_login" />
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
         <activity
             android:name="org.slt.android.quest.LoginActivity"
             android:theme="@string/title_activity_login" />
+        <activity
+            android:name="org.slt.android.quest.ChatActivity"
+            android:launchMode="singleTop" />
+        <activity
+            android:name="org.slt.android.quest.MapActivity"
+            android:launchMode="singleTop" />
+        <activity
+            android:name="org.slt.android.quest.ProfileActivity"
+            android:launchMode="singleTop" />
+        <activity
+            android:name="org.slt.android.quest.CreateAccountActivity"
+            android:launchMode="singleTop" />
     </application>
 
 </manifest>
