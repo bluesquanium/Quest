@@ -1,190 +1,272 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Bluesquanium\Quest\app\src\main\AndroidManifest.xml:2:1-40:12
-INJECTED from C:\Users\Bluesquanium\Quest\app\src\main\AndroidManifest.xml:2:1-40:12
-INJECTED from C:\Users\Bluesquanium\Quest\app\src\main\AndroidManifest.xml:2:1-40:12
-INJECTED from C:\Users\Bluesquanium\Quest\app\src\main\AndroidManifest.xml:2:1-40:12
-MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\4d9db6ae03def255a4a5623545b5bf97\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\f5a605f82cc0cc40971d9613842c2e42\AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\157232a114a35415981cb37507602626\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\d8ecfd79dc1830abc524d5df4efba5c7\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\2b580ef644e6372252c9235032ac010f\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\6537a56715d0308023bc42e85a26fed2\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\a24bdce9a304e3c9f2c11d5d38fffd21\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:loader:28.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\4316facde31454bd333e17695db1b70b\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\0574bc9fe6039900aba1620f6bf87466\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\a76cbcf56687ba18cb6f44c216cf033d\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\892c0e101697e826183252615a5699dd\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\479ebc5c6ed2c2bbbb64bb647d152431\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:customview:28.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\d4faa384010139710d363f3ca864ef3c\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\4a9c8d0d79bc98b728dc311d911633d1\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\0885c677211ab223b27ecb7314437273\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\a48e3f79d4b249e81fa4b5d9fb920bfc\AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\afa8606a90b30eb4775390cfe5d99793\AndroidManifest.xml:17:1-25:12
-MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\3c733e05e26573ae3c5406219fbdaaa5\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\e7ce15a0bb60e244579c2d10aabc9485\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\aa4b1cf7f195b7998a7dc68c0a6beb11\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\310b4b203e75a32b52977b5776ea5029\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:print:28.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\ae97def39f0ab52a21edf5a226bb8cf9\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\1e220b2f1f54d4ebbc8eebd6d96859d4\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\086bd4431bf336bed45b046aea447b7f\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\f269ee30dbdeb4ba845301ad381bf90a\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\90a9ee474eab481f39600149887a9653\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\13f2d091e0e69cdacc860a2efab4967d\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\Bluesquanium\Quest\app\src\main\AndroidManifest.xml:2:1-40:12
-INJECTED from C:\Users\Bluesquanium\Quest\app\src\main\AndroidManifest.xml:2:1-40:12
-INJECTED from C:\Users\Bluesquanium\Quest\app\src\main\AndroidManifest.xml:2:1-40:12
+ADDED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:2:1-50:12
+INJECTED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:2:1-50:12
+INJECTED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:2:1-50:12
+INJECTED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:2:1-50:12
+MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\appcompat-1.0.0.aar\ed291f17a63404e0fa40afd71cfeab3a\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\constraintlayout-1.1.3.aar\fc18237e95f7e2e575e6784b450609b5\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\play-services-maps-17.0.0.aar\34910ba8a6df3460e99eddb50001ea5a\AndroidManifest.xml:17:1-38:12
+MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\play-services-location-17.0.0.aar\92ae089f582cbeb21d43ef5750a09dfc\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\play-services-base-17.0.0.aar\0eafcb2299c18233bd0536fc7a2a214b\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-17.0.0.aar\d83d940673d8849826c1cd64deffc0df\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\play-services-tasks-17.0.0.aar\04b48ea4cdb588de73592839c44c13df\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-17.0.0.aar\d686fb3cd76c52ec2f5b9d12de8bcf36\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\fragment-1.0.0.aar\23fded3e90aa41c544f05e9c79d42cba\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\vectordrawable-animated-1.0.0.aar\938b0a516261bdebe1a705b21c23d721\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\legacy-support-core-ui-1.0.0.aar\6a82558f90ecb3a58a2cea61b4541daa\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\legacy-support-core-utils-1.0.0.aar\e186e9f9f99497e7ab967ea57df1f90e\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\vectordrawable-1.0.0.aar\467c6b0232eccbd8c056e08e9572ae39\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\loader-1.0.0.aar\e7c5bb8b10a1941c05845dc92e07a8dc\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0.aar\7c22b103adf21f65f838de61cf515d21\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.0.0.aar\8258a8f0ebc2aea7c9bfcf60a6130d45\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\drawerlayout-1.0.0.aar\a0e14dc603e73663f1b13e0269103fef\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-1.0.0.aar\9b3bbe5974431c675ce0039e33f53e1a\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\customview-1.0.0.aar\313260dae1036a05e3eb6aa5403b1ecc\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-1.0.0.aar\15970a29346ee9c982cee7aa0158d540\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-1.0.0.aar\a71f1942adb72f370ec53b7772b0fc28\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\core-1.0.0.aar\5c5539d9631dd8678b0438c432941644\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0.aar\d4a92189e1485e14dc8b67ecaa88d7bb\AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0.aar\3594c28966c7d88146c5bec143e2f3f8\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.0.0.aar\7961066592611e527ec74573aad921e0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\documentfile-1.0.0.aar\a4b37e33ae0157521aab808e505682de\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-1.0.0.aar\a613577990de6ab29c207000d6851ac0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\print-1.0.0.aar\3d28d4d2be87336a4c1238420992bc66\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.0.0.aar\79329a96682aa9d5afc3e16b3a7461f8\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-2.0.0.aar\e3646682e4d4a019a0e9892793983a58\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.0.0.aar\19ad32ac52e9afff4ea0e0b629db4852\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.0.aar\6156a80d1ffa8d33c29987fc03fc3040\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\cbe459ebe4fb1e35cfd6f8cd77bfc5ef\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:2:1-50:12
+INJECTED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:2:1-50:12
+INJECTED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:2:1-50:12
 	package
-		ADDED from C:\Users\Bluesquanium\Quest\app\src\main\AndroidManifest.xml:3:5-36
-		INJECTED from C:\Users\Bluesquanium\Quest\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Bluesquanium\Quest\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:3:5-36
+		INJECTED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\Bluesquanium\Quest\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Bluesquanium\Quest\app\src\main\AndroidManifest.xml:2:1-40:12
-		INJECTED from C:\Users\Bluesquanium\Quest\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:2:1-50:12
+		INJECTED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\Bluesquanium\Quest\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Bluesquanium\Quest\app\src\main\AndroidManifest.xml:2:1-40:12
-		INJECTED from C:\Users\Bluesquanium\Quest\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:2:1-50:12
+		INJECTED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\Bluesquanium\Quest\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:5:5-79
+	android:name
+		ADDED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:5:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:6:5-80
+	android:name
+		ADDED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:6:22-78
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:7:5-66
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\play-services-maps-17.0.0.aar\34910ba8a6df3460e99eddb50001ea5a\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\play-services-maps-17.0.0.aar\34910ba8a6df3460e99eddb50001ea5a\AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:7:22-64
 application
-ADDED from C:\Users\Bluesquanium\Quest\app\src\main\AndroidManifest.xml:5:5-38:19
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\f5a605f82cc0cc40971d9613842c2e42\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\f5a605f82cc0cc40971d9613842c2e42\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\a48e3f79d4b249e81fa4b5d9fb920bfc\AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\a48e3f79d4b249e81fa4b5d9fb920bfc\AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\afa8606a90b30eb4775390cfe5d99793\AndroidManifest.xml:22:5-23:19
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\afa8606a90b30eb4775390cfe5d99793\AndroidManifest.xml:22:5-23:19
+ADDED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:9:5-48:19
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\constraintlayout-1.1.3.aar\fc18237e95f7e2e575e6784b450609b5\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\constraintlayout-1.1.3.aar\fc18237e95f7e2e575e6784b450609b5\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\play-services-maps-17.0.0.aar\34910ba8a6df3460e99eddb50001ea5a\AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\play-services-maps-17.0.0.aar\34910ba8a6df3460e99eddb50001ea5a\AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\play-services-location-17.0.0.aar\92ae089f582cbeb21d43ef5750a09dfc\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\play-services-location-17.0.0.aar\92ae089f582cbeb21d43ef5750a09dfc\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\play-services-base-17.0.0.aar\0eafcb2299c18233bd0536fc7a2a214b\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\play-services-base-17.0.0.aar\0eafcb2299c18233bd0536fc7a2a214b\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-17.0.0.aar\d83d940673d8849826c1cd64deffc0df\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-17.0.0.aar\d83d940673d8849826c1cd64deffc0df\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\play-services-tasks-17.0.0.aar\04b48ea4cdb588de73592839c44c13df\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\play-services-tasks-17.0.0.aar\04b48ea4cdb588de73592839c44c13df\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-17.0.0.aar\d686fb3cd76c52ec2f5b9d12de8bcf36\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-17.0.0.aar\d686fb3cd76c52ec2f5b9d12de8bcf36\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\core-1.0.0.aar\5c5539d9631dd8678b0438c432941644\AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\core-1.0.0.aar\5c5539d9631dd8678b0438c432941644\AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0.aar\d4a92189e1485e14dc8b67ecaa88d7bb\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0.aar\d4a92189e1485e14dc8b67ecaa88d7bb\AndroidManifest.xml:22:5-23:19
 	android:appComponentFactory
-		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\a48e3f79d4b249e81fa4b5d9fb920bfc\AndroidManifest.xml:22:18-91
+		ADDED from [androidx.core:core:1.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\core-1.0.0.aar\5c5539d9631dd8678b0438c432941644\AndroidManifest.xml:22:18-86
 	android:supportsRtl
-		ADDED from C:\Users\Bluesquanium\Quest\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:14:9-35
 	android:label
-		ADDED from C:\Users\Bluesquanium\Quest\app\src\main\AndroidManifest.xml:8:9-41
+		ADDED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:12:9-41
 	android:roundIcon
-		ADDED from C:\Users\Bluesquanium\Quest\app\src\main\AndroidManifest.xml:9:9-54
+		ADDED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:13:9-54
 	android:icon
-		ADDED from C:\Users\Bluesquanium\Quest\app\src\main\AndroidManifest.xml:7:9-43
+		ADDED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:11:9-43
 	android:allowBackup
-		ADDED from C:\Users\Bluesquanium\Quest\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:10:9-35
 	android:theme
-		ADDED from C:\Users\Bluesquanium\Quest\app\src\main\AndroidManifest.xml:11:9-40
+		ADDED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:15:9-40
+uses-library#org.apache.http.legacy
+ADDED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:17:9-88
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\play-services-maps-17.0.0.aar\34910ba8a6df3460e99eddb50001ea5a\AndroidManifest.xml:33:9-35:40
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\play-services-maps-17.0.0.aar\34910ba8a6df3460e99eddb50001ea5a\AndroidManifest.xml:33:9-35:40
+	android:required
+		ADDED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:17:61-85
+	android:name
+		ADDED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:17:23-60
+meta-data#com.google.android.geo.API_KEY
+ADDED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:19:9-20:71
+	android:value
+		ADDED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:20:13-68
+	android:name
+		ADDED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:19:20-65
 activity#org.slt.android.quest.MainActivity
-ADDED from C:\Users\Bluesquanium\Quest\app\src\main\AndroidManifest.xml:12:9-18:20
+ADDED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:22:9-28:20
 	android:name
-		ADDED from C:\Users\Bluesquanium\Quest\app\src\main\AndroidManifest.xml:12:19-47
+		ADDED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:22:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Bluesquanium\Quest\app\src\main\AndroidManifest.xml:13:13-17:29
+ADDED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:23:13-27:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Bluesquanium\Quest\app\src\main\AndroidManifest.xml:14:17-69
+ADDED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:24:17-69
 	android:name
-		ADDED from C:\Users\Bluesquanium\Quest\app\src\main\AndroidManifest.xml:14:25-66
+		ADDED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:24:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Bluesquanium\Quest\app\src\main\AndroidManifest.xml:16:17-77
+ADDED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:26:17-77
 	android:name
-		ADDED from C:\Users\Bluesquanium\Quest\app\src\main\AndroidManifest.xml:16:27-74
+		ADDED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:26:27-74
 activity#org.slt.android.quest.LoadingActivity
-ADDED from C:\Users\Bluesquanium\Quest\app\src\main\AndroidManifest.xml:19:9-21:74
+ADDED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:29:9-31:74
 	android:theme
-		ADDED from C:\Users\Bluesquanium\Quest\app\src\main\AndroidManifest.xml:21:13-71
+		ADDED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:31:13-71
 	android:name
-		ADDED from C:\Users\Bluesquanium\Quest\app\src\main\AndroidManifest.xml:20:13-44
+		ADDED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:30:13-44
 activity#org.slt.android.quest.LoginActivity
-ADDED from C:\Users\Bluesquanium\Quest\app\src\main\AndroidManifest.xml:22:9-24:60
+ADDED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:32:9-34:60
 	android:theme
-		ADDED from C:\Users\Bluesquanium\Quest\app\src\main\AndroidManifest.xml:24:13-57
+		ADDED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:34:13-57
 	android:name
-		ADDED from C:\Users\Bluesquanium\Quest\app\src\main\AndroidManifest.xml:23:13-42
+		ADDED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:33:13-42
 activity#org.slt.android.quest.ChatActivity
-ADDED from C:\Users\Bluesquanium\Quest\app\src\main\AndroidManifest.xml:25:9-27:45
+ADDED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:35:9-37:45
 	android:launchMode
-		ADDED from C:\Users\Bluesquanium\Quest\app\src\main\AndroidManifest.xml:27:13-43
+		ADDED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:37:13-43
 	android:name
-		ADDED from C:\Users\Bluesquanium\Quest\app\src\main\AndroidManifest.xml:26:13-41
+		ADDED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:36:13-41
 activity#org.slt.android.quest.MapActivity
-ADDED from C:\Users\Bluesquanium\Quest\app\src\main\AndroidManifest.xml:28:9-30:45
+ADDED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:38:9-40:45
 	android:launchMode
-		ADDED from C:\Users\Bluesquanium\Quest\app\src\main\AndroidManifest.xml:30:13-43
+		ADDED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:40:13-43
 	android:name
-		ADDED from C:\Users\Bluesquanium\Quest\app\src\main\AndroidManifest.xml:29:13-40
+		ADDED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:39:13-40
 activity#org.slt.android.quest.ProfileActivity
-ADDED from C:\Users\Bluesquanium\Quest\app\src\main\AndroidManifest.xml:31:9-33:45
+ADDED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:41:9-43:45
 	android:launchMode
-		ADDED from C:\Users\Bluesquanium\Quest\app\src\main\AndroidManifest.xml:33:13-43
+		ADDED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:43:13-43
 	android:name
-		ADDED from C:\Users\Bluesquanium\Quest\app\src\main\AndroidManifest.xml:32:13-44
+		ADDED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:42:13-44
 activity#org.slt.android.quest.CreateAccountActivity
-ADDED from C:\Users\Bluesquanium\Quest\app\src\main\AndroidManifest.xml:34:9-36:45
+ADDED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:44:9-46:45
 	android:launchMode
-		ADDED from C:\Users\Bluesquanium\Quest\app\src\main\AndroidManifest.xml:36:13-43
+		ADDED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:46:13-43
 	android:name
-		ADDED from C:\Users\Bluesquanium\Quest\app\src\main\AndroidManifest.xml:35:13-50
+		ADDED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:45:13-50
 uses-sdk
-INJECTED from C:\Users\Bluesquanium\Quest\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\Bluesquanium\Quest\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Bluesquanium\Quest\app\src\main\AndroidManifest.xml
-MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\4d9db6ae03def255a4a5623545b5bf97\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\4d9db6ae03def255a4a5623545b5bf97\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\f5a605f82cc0cc40971d9613842c2e42\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\f5a605f82cc0cc40971d9613842c2e42\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\157232a114a35415981cb37507602626\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\157232a114a35415981cb37507602626\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\d8ecfd79dc1830abc524d5df4efba5c7\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\d8ecfd79dc1830abc524d5df4efba5c7\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\2b580ef644e6372252c9235032ac010f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\2b580ef644e6372252c9235032ac010f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\6537a56715d0308023bc42e85a26fed2\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\6537a56715d0308023bc42e85a26fed2\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\a24bdce9a304e3c9f2c11d5d38fffd21\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\a24bdce9a304e3c9f2c11d5d38fffd21\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\4316facde31454bd333e17695db1b70b\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\4316facde31454bd333e17695db1b70b\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\0574bc9fe6039900aba1620f6bf87466\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\0574bc9fe6039900aba1620f6bf87466\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\a76cbcf56687ba18cb6f44c216cf033d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\a76cbcf56687ba18cb6f44c216cf033d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\892c0e101697e826183252615a5699dd\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\892c0e101697e826183252615a5699dd\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\479ebc5c6ed2c2bbbb64bb647d152431\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\479ebc5c6ed2c2bbbb64bb647d152431\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\d4faa384010139710d363f3ca864ef3c\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\d4faa384010139710d363f3ca864ef3c\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\4a9c8d0d79bc98b728dc311d911633d1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\4a9c8d0d79bc98b728dc311d911633d1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\0885c677211ab223b27ecb7314437273\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\0885c677211ab223b27ecb7314437273\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\a48e3f79d4b249e81fa4b5d9fb920bfc\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\a48e3f79d4b249e81fa4b5d9fb920bfc\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\afa8606a90b30eb4775390cfe5d99793\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\afa8606a90b30eb4775390cfe5d99793\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\3c733e05e26573ae3c5406219fbdaaa5\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\3c733e05e26573ae3c5406219fbdaaa5\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\e7ce15a0bb60e244579c2d10aabc9485\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\e7ce15a0bb60e244579c2d10aabc9485\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\aa4b1cf7f195b7998a7dc68c0a6beb11\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\aa4b1cf7f195b7998a7dc68c0a6beb11\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\310b4b203e75a32b52977b5776ea5029\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\310b4b203e75a32b52977b5776ea5029\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\ae97def39f0ab52a21edf5a226bb8cf9\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\ae97def39f0ab52a21edf5a226bb8cf9\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\1e220b2f1f54d4ebbc8eebd6d96859d4\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\1e220b2f1f54d4ebbc8eebd6d96859d4\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\086bd4431bf336bed45b046aea447b7f\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\086bd4431bf336bed45b046aea447b7f\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\f269ee30dbdeb4ba845301ad381bf90a\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\f269ee30dbdeb4ba845301ad381bf90a\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\90a9ee474eab481f39600149887a9653\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\90a9ee474eab481f39600149887a9653\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\13f2d091e0e69cdacc860a2efab4967d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\13f2d091e0e69cdacc860a2efab4967d\AndroidManifest.xml:20:5-44
-INJECTED from C:\Users\Bluesquanium\Quest\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Bluesquanium\Quest\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml
+MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\appcompat-1.0.0.aar\ed291f17a63404e0fa40afd71cfeab3a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\appcompat-1.0.0.aar\ed291f17a63404e0fa40afd71cfeab3a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\constraintlayout-1.1.3.aar\fc18237e95f7e2e575e6784b450609b5\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\constraintlayout-1.1.3.aar\fc18237e95f7e2e575e6784b450609b5\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\play-services-maps-17.0.0.aar\34910ba8a6df3460e99eddb50001ea5a\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\play-services-maps-17.0.0.aar\34910ba8a6df3460e99eddb50001ea5a\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\play-services-location-17.0.0.aar\92ae089f582cbeb21d43ef5750a09dfc\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\play-services-location-17.0.0.aar\92ae089f582cbeb21d43ef5750a09dfc\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\play-services-base-17.0.0.aar\0eafcb2299c18233bd0536fc7a2a214b\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\play-services-base-17.0.0.aar\0eafcb2299c18233bd0536fc7a2a214b\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-17.0.0.aar\d83d940673d8849826c1cd64deffc0df\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-17.0.0.aar\d83d940673d8849826c1cd64deffc0df\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\play-services-tasks-17.0.0.aar\04b48ea4cdb588de73592839c44c13df\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\play-services-tasks-17.0.0.aar\04b48ea4cdb588de73592839c44c13df\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-17.0.0.aar\d686fb3cd76c52ec2f5b9d12de8bcf36\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-17.0.0.aar\d686fb3cd76c52ec2f5b9d12de8bcf36\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\fragment-1.0.0.aar\23fded3e90aa41c544f05e9c79d42cba\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\fragment-1.0.0.aar\23fded3e90aa41c544f05e9c79d42cba\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\vectordrawable-animated-1.0.0.aar\938b0a516261bdebe1a705b21c23d721\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\vectordrawable-animated-1.0.0.aar\938b0a516261bdebe1a705b21c23d721\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\legacy-support-core-ui-1.0.0.aar\6a82558f90ecb3a58a2cea61b4541daa\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\legacy-support-core-ui-1.0.0.aar\6a82558f90ecb3a58a2cea61b4541daa\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\legacy-support-core-utils-1.0.0.aar\e186e9f9f99497e7ab967ea57df1f90e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\legacy-support-core-utils-1.0.0.aar\e186e9f9f99497e7ab967ea57df1f90e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\vectordrawable-1.0.0.aar\467c6b0232eccbd8c056e08e9572ae39\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\vectordrawable-1.0.0.aar\467c6b0232eccbd8c056e08e9572ae39\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\loader-1.0.0.aar\e7c5bb8b10a1941c05845dc92e07a8dc\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\loader-1.0.0.aar\e7c5bb8b10a1941c05845dc92e07a8dc\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0.aar\7c22b103adf21f65f838de61cf515d21\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0.aar\7c22b103adf21f65f838de61cf515d21\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.0.0.aar\8258a8f0ebc2aea7c9bfcf60a6130d45\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.0.0.aar\8258a8f0ebc2aea7c9bfcf60a6130d45\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\drawerlayout-1.0.0.aar\a0e14dc603e73663f1b13e0269103fef\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\drawerlayout-1.0.0.aar\a0e14dc603e73663f1b13e0269103fef\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-1.0.0.aar\9b3bbe5974431c675ce0039e33f53e1a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-1.0.0.aar\9b3bbe5974431c675ce0039e33f53e1a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\customview-1.0.0.aar\313260dae1036a05e3eb6aa5403b1ecc\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\customview-1.0.0.aar\313260dae1036a05e3eb6aa5403b1ecc\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-1.0.0.aar\15970a29346ee9c982cee7aa0158d540\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-1.0.0.aar\15970a29346ee9c982cee7aa0158d540\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-1.0.0.aar\a71f1942adb72f370ec53b7772b0fc28\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-1.0.0.aar\a71f1942adb72f370ec53b7772b0fc28\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\core-1.0.0.aar\5c5539d9631dd8678b0438c432941644\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\core-1.0.0.aar\5c5539d9631dd8678b0438c432941644\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0.aar\d4a92189e1485e14dc8b67ecaa88d7bb\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0.aar\d4a92189e1485e14dc8b67ecaa88d7bb\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0.aar\3594c28966c7d88146c5bec143e2f3f8\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0.aar\3594c28966c7d88146c5bec143e2f3f8\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.0.0.aar\7961066592611e527ec74573aad921e0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.0.0.aar\7961066592611e527ec74573aad921e0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\documentfile-1.0.0.aar\a4b37e33ae0157521aab808e505682de\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\documentfile-1.0.0.aar\a4b37e33ae0157521aab808e505682de\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-1.0.0.aar\a613577990de6ab29c207000d6851ac0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-1.0.0.aar\a613577990de6ab29c207000d6851ac0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\print-1.0.0.aar\3d28d4d2be87336a4c1238420992bc66\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\print-1.0.0.aar\3d28d4d2be87336a4c1238420992bc66\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.0.0.aar\79329a96682aa9d5afc3e16b3a7461f8\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.0.0.aar\79329a96682aa9d5afc3e16b3a7461f8\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-2.0.0.aar\e3646682e4d4a019a0e9892793983a58\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-2.0.0.aar\e3646682e4d4a019a0e9892793983a58\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.0.0.aar\19ad32ac52e9afff4ea0e0b629db4852\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.0.0.aar\19ad32ac52e9afff4ea0e0b629db4852\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.0.aar\6156a80d1ffa8d33c29987fc03fc3040\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.0.aar\6156a80d1ffa8d33c29987fc03fc3040\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\cbe459ebe4fb1e35cfd6f8cd77bfc5ef\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\cbe459ebe4fb1e35cfd6f8cd77bfc5ef\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\Bluesquanium\Quest\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Bluesquanium\Quest\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Bluesquanium\Quest\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\Bluesquanium\Quest\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Bluesquanium\Quest\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Bluesquanium\Quest\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\play-services-maps-17.0.0.aar\34910ba8a6df3460e99eddb50001ea5a\AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\play-services-maps-17.0.0.aar\34910ba8a6df3460e99eddb50001ea5a\AndroidManifest.xml:23:22-76
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\play-services-maps-17.0.0.aar\34910ba8a6df3460e99eddb50001ea5a\AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\play-services-maps-17.0.0.aar\34910ba8a6df3460e99eddb50001ea5a\AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\play-services-maps-17.0.0.aar\34910ba8a6df3460e99eddb50001ea5a\AndroidManifest.xml:28:9-32
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\play-services-base-17.0.0.aar\0eafcb2299c18233bd0536fc7a2a214b\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\play-services-base-17.0.0.aar\0eafcb2299c18233bd0536fc7a2a214b\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\play-services-base-17.0.0.aar\0eafcb2299c18233bd0536fc7a2a214b\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\play-services-base-17.0.0.aar\0eafcb2299c18233bd0536fc7a2a214b\AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-17.0.0.aar\d686fb3cd76c52ec2f5b9d12de8bcf36\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-17.0.0.aar\d686fb3cd76c52ec2f5b9d12de8bcf36\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-17.0.0.aar\d686fb3cd76c52ec2f5b9d12de8bcf36\AndroidManifest.xml:24:13-58
