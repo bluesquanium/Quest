@@ -38,4 +38,13 @@ public class ChatActivity extends AppCompatActivity {
             startActivity(intent);
         }
     }
+
+    //백버튼 컨트롤
+
+    @Override
+    public void onBackPressed() {
+        finish();
+        Intent intent = new Intent(getApplicationContext(), MapActivity.class);
+        startActivity(intent);
+    }
 }

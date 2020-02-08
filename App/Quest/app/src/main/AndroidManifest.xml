@@ -27,23 +27,17 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".LoadingActivity"
-            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+            android:name=".LoadingActivity" />
         <activity
-            android:name=".LoginActivity"
-            android:theme="@string/title_activity_login" />
+            android:name=".LoginActivity" />
         <activity
-            android:name=".ChatActivity"
-            android:launchMode="singleTop"/>
+            android:name=".ChatActivity" />
         <activity
-            android:name=".MapActivity"
-            android:launchMode="singleTop"/>
+            android:name=".MapActivity"/>
         <activity
-            android:name=".ProfileActivity"
-            android:launchMode="singleTop"/>
+            android:name=".ProfileActivity" />
         <activity
-            android:name=".CreateAccountActivity"
-            android:launchMode="singleTop"/>
+            android:name=".CreateAccountActivity" />
 
     </application>
 

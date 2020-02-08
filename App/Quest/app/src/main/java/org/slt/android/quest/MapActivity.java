@@ -625,4 +625,11 @@ public class MapActivity extends AppCompatActivity
             startActivity(intent);
         }
     }
+
+    //백버튼 컨트롤
+
+    @Override
+    public void onBackPressed() {
+        ActivityCompat.finishAffinity(this);
+    }
 }

@@ -1,8 +1,27 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\DJH\\Desktop\\SLT_project\\app\\Quest\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
+            "outputFile": "C:\\Users\\DJH\\Desktop\\Quest\\App\\Quest\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
             "map": [
+                {
+                    "source": "C:\\Users\\DJH\\.gradle\\caches\\transforms-1\\files-1.1\\cardview-1.0.0-rc01.aar\\ef89f9562ede6468ef409b48be904032\\res\\values-v23\\values-v23.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "200"
+                    },
+                    "to": {
+                        "startLines": "37",
+                        "startColumns": "4",
+                        "startOffsets": "2646",
+                        "endLines": "39",
+                        "endColumns": "12",
+                        "endOffsets": "2791"
+                    }
+                },
                 {
                     "source": "C:\\Users\\DJH\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-1.0.0.aar\\5a40025c7e110618484869699ed03bec\\res\\values-v23\\values-v23.xml",
                     "from": {

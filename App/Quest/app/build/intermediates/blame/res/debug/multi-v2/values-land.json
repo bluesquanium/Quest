@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\DJH\\Desktop\\SLT_project\\app\\Quest\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
+            "outputFile": "C:\\Users\\DJH\\Desktop\\Quest\\App\\Quest\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
             "map": [
                 {
                     "source": "C:\\Users\\DJH\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-1.0.0.aar\\5a40025c7e110618484869699ed03bec\\res\\values-land\\values-land.xml",

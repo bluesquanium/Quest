@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\DJH\\Desktop\\SLT_project\\app\\Quest\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-mr\\values-mr.xml",
+            "outputFile": "C:\\Users\\DJH\\Desktop\\Quest\\App\\Quest\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-mr\\values-mr.xml",
             "map": [
                 {
                     "source": "C:\\Users\\DJH\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\b64da54b2cc83ce5b26c9ab6c7f48c56\\res\\values-mr\\values.xml",

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\DJH\\Desktop\\SLT_project\\app\\Quest\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ml\\values-ml.xml",
+            "outputFile": "C:\\Users\\DJH\\Desktop\\Quest\\App\\Quest\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ml\\values-ml.xml",
             "map": [
                 {
                     "source": "C:\\Users\\DJH\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.0.0.aar\\bc13faf9d862d5b7beada37d84b66fb2\\res\\values-ml\\values-ml.xml",

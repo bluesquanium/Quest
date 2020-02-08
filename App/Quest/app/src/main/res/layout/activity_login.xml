@@ -53,7 +53,7 @@
                 android:ems="10"
                 android:hint="EMAIL"
                 android:inputType="textEmailAddress"
-                android:singleLine="true" />
+                android:singleLine="true"/>
 
             <EditText
                 android:id="@+id/password"

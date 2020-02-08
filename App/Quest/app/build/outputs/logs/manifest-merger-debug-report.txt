@@ -1,13 +1,14 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\DJH\Desktop\SLT_project\app\Quest\app\src\main\AndroidManifest.xml:2:1-50:12
-INJECTED from C:\Users\DJH\Desktop\SLT_project\app\Quest\app\src\main\AndroidManifest.xml:2:1-50:12
-INJECTED from C:\Users\DJH\Desktop\SLT_project\app\Quest\app\src\main\AndroidManifest.xml:2:1-50:12
-INJECTED from C:\Users\DJH\Desktop\SLT_project\app\Quest\app\src\main\AndroidManifest.xml:2:1-50:12
+ADDED from C:\Users\DJH\Desktop\Quest\App\Quest\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from C:\Users\DJH\Desktop\Quest\App\Quest\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from C:\Users\DJH\Desktop\Quest\App\Quest\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from C:\Users\DJH\Desktop\Quest\App\Quest\app\src\main\AndroidManifest.xml:2:1-44:12
 MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\DJH\.gradle\caches\transforms-1\files-1.1\appcompat-1.0.0.aar\5a40025c7e110618484869699ed03bec\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\DJH\.gradle\caches\transforms-1\files-1.1\constraintlayout-1.1.3.aar\e0280d8ff06fd4bda581e58b309d1e54\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\DJH\.gradle\caches\transforms-1\files-1.1\play-services-maps-17.0.0.aar\aaaa95cf66f2ca38a975cbd27c0c7cdf\AndroidManifest.xml:17:1-38:12
 MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\DJH\.gradle\caches\transforms-1\files-1.1\play-services-location-17.0.0.aar\23969cfc768e711cef7f343e6bda61c7\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.cardview:cardview:1.0.0-rc01] C:\Users\DJH\.gradle\caches\transforms-1\files-1.1\cardview-1.0.0-rc01.aar\ef89f9562ede6468ef409b48be904032\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\DJH\.gradle\caches\transforms-1\files-1.1\play-services-base-17.0.0.aar\b64da54b2cc83ce5b26c9ab6c7f48c56\AndroidManifest.xml:17:1-29:12
 MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\DJH\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-17.0.0.aar\f35a029f629ee3ea3ae863b588462907\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\DJH\.gradle\caches\transforms-1\files-1.1\play-services-tasks-17.0.0.aar\9e4113cbd48084ec4948bf1d820a52df\AndroidManifest.xml:2:1-9:12
@@ -37,39 +38,39 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\DJH\.gradle\c
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\DJH\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.0.0.aar\a680d6f6875bbd13e65684b638ba86cd\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\DJH\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.0.aar\9b78ba33c7de11043d39432b4a4d87c6\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\DJH\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\ac2038d32b68dff069e39f2c41c4b276\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\DJH\Desktop\SLT_project\app\Quest\app\src\main\AndroidManifest.xml:2:1-50:12
-INJECTED from C:\Users\DJH\Desktop\SLT_project\app\Quest\app\src\main\AndroidManifest.xml:2:1-50:12
-INJECTED from C:\Users\DJH\Desktop\SLT_project\app\Quest\app\src\main\AndroidManifest.xml:2:1-50:12
+INJECTED from C:\Users\DJH\Desktop\Quest\App\Quest\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from C:\Users\DJH\Desktop\Quest\App\Quest\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from C:\Users\DJH\Desktop\Quest\App\Quest\app\src\main\AndroidManifest.xml:2:1-44:12
 	package
-		ADDED from C:\Users\DJH\Desktop\SLT_project\app\Quest\app\src\main\AndroidManifest.xml:3:5-36
-		INJECTED from C:\Users\DJH\Desktop\SLT_project\app\Quest\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\DJH\Desktop\SLT_project\app\Quest\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\DJH\Desktop\Quest\App\Quest\app\src\main\AndroidManifest.xml:3:5-36
+		INJECTED from C:\Users\DJH\Desktop\Quest\App\Quest\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\DJH\Desktop\Quest\App\Quest\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\DJH\Desktop\SLT_project\app\Quest\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\DJH\Desktop\SLT_project\app\Quest\app\src\main\AndroidManifest.xml:2:1-50:12
-		INJECTED from C:\Users\DJH\Desktop\SLT_project\app\Quest\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\DJH\Desktop\Quest\App\Quest\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\DJH\Desktop\Quest\App\Quest\app\src\main\AndroidManifest.xml:2:1-44:12
+		INJECTED from C:\Users\DJH\Desktop\Quest\App\Quest\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\DJH\Desktop\SLT_project\app\Quest\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\DJH\Desktop\SLT_project\app\Quest\app\src\main\AndroidManifest.xml:2:1-50:12
-		INJECTED from C:\Users\DJH\Desktop\SLT_project\app\Quest\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\DJH\Desktop\Quest\App\Quest\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\DJH\Desktop\Quest\App\Quest\app\src\main\AndroidManifest.xml:2:1-44:12
+		INJECTED from C:\Users\DJH\Desktop\Quest\App\Quest\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\DJH\Desktop\SLT_project\app\Quest\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\DJH\Desktop\Quest\App\Quest\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from C:\Users\DJH\Desktop\SLT_project\app\Quest\app\src\main\AndroidManifest.xml:5:5-79
+ADDED from C:\Users\DJH\Desktop\Quest\App\Quest\app\src\main\AndroidManifest.xml:5:5-79
 	android:name
-		ADDED from C:\Users\DJH\Desktop\SLT_project\app\Quest\app\src\main\AndroidManifest.xml:5:22-76
+		ADDED from C:\Users\DJH\Desktop\Quest\App\Quest\app\src\main\AndroidManifest.xml:5:22-76
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from C:\Users\DJH\Desktop\SLT_project\app\Quest\app\src\main\AndroidManifest.xml:6:5-80
+ADDED from C:\Users\DJH\Desktop\Quest\App\Quest\app\src\main\AndroidManifest.xml:6:5-80
 	android:name
-		ADDED from C:\Users\DJH\Desktop\SLT_project\app\Quest\app\src\main\AndroidManifest.xml:6:22-78
+		ADDED from C:\Users\DJH\Desktop\Quest\App\Quest\app\src\main\AndroidManifest.xml:6:22-78
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\DJH\Desktop\SLT_project\app\Quest\app\src\main\AndroidManifest.xml:7:5-66
+ADDED from C:\Users\DJH\Desktop\Quest\App\Quest\app\src\main\AndroidManifest.xml:7:5-66
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\DJH\.gradle\caches\transforms-1\files-1.1\play-services-maps-17.0.0.aar\aaaa95cf66f2ca38a975cbd27c0c7cdf\AndroidManifest.xml:24:5-67
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\DJH\.gradle\caches\transforms-1\files-1.1\play-services-maps-17.0.0.aar\aaaa95cf66f2ca38a975cbd27c0c7cdf\AndroidManifest.xml:24:5-67
 	android:name
-		ADDED from C:\Users\DJH\Desktop\SLT_project\app\Quest\app\src\main\AndroidManifest.xml:7:22-64
+		ADDED from C:\Users\DJH\Desktop\Quest\App\Quest\app\src\main\AndroidManifest.xml:7:22-64
 application
-ADDED from C:\Users\DJH\Desktop\SLT_project\app\Quest\app\src\main\AndroidManifest.xml:9:5-48:19
+ADDED from C:\Users\DJH\Desktop\Quest\App\Quest\app\src\main\AndroidManifest.xml:9:5-42:19
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\DJH\.gradle\caches\transforms-1\files-1.1\constraintlayout-1.1.3.aar\e0280d8ff06fd4bda581e58b309d1e54\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\DJH\.gradle\caches\transforms-1\files-1.1\constraintlayout-1.1.3.aar\e0280d8ff06fd4bda581e58b309d1e54\AndroidManifest.xml:9:5-20
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\DJH\.gradle\caches\transforms-1\files-1.1\play-services-maps-17.0.0.aar\aaaa95cf66f2ca38a975cbd27c0c7cdf\AndroidManifest.xml:30:5-36:19
@@ -91,85 +92,73 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\DJ
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.0.0] C:\Users\DJH\.gradle\caches\transforms-1\files-1.1\core-1.0.0.aar\bc13faf9d862d5b7beada37d84b66fb2\AndroidManifest.xml:22:18-86
 	android:supportsRtl
-		ADDED from C:\Users\DJH\Desktop\SLT_project\app\Quest\app\src\main\AndroidManifest.xml:14:9-35
+		ADDED from C:\Users\DJH\Desktop\Quest\App\Quest\app\src\main\AndroidManifest.xml:14:9-35
 	android:label
-		ADDED from C:\Users\DJH\Desktop\SLT_project\app\Quest\app\src\main\AndroidManifest.xml:12:9-41
+		ADDED from C:\Users\DJH\Desktop\Quest\App\Quest\app\src\main\AndroidManifest.xml:12:9-41
 	android:roundIcon
-		ADDED from C:\Users\DJH\Desktop\SLT_project\app\Quest\app\src\main\AndroidManifest.xml:13:9-54
+		ADDED from C:\Users\DJH\Desktop\Quest\App\Quest\app\src\main\AndroidManifest.xml:13:9-54
 	android:icon
-		ADDED from C:\Users\DJH\Desktop\SLT_project\app\Quest\app\src\main\AndroidManifest.xml:11:9-43
+		ADDED from C:\Users\DJH\Desktop\Quest\App\Quest\app\src\main\AndroidManifest.xml:11:9-43
 	android:allowBackup
-		ADDED from C:\Users\DJH\Desktop\SLT_project\app\Quest\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from C:\Users\DJH\Desktop\Quest\App\Quest\app\src\main\AndroidManifest.xml:10:9-35
 	android:theme
-		ADDED from C:\Users\DJH\Desktop\SLT_project\app\Quest\app\src\main\AndroidManifest.xml:15:9-40
+		ADDED from C:\Users\DJH\Desktop\Quest\App\Quest\app\src\main\AndroidManifest.xml:15:9-40
 uses-library#org.apache.http.legacy
-ADDED from C:\Users\DJH\Desktop\SLT_project\app\Quest\app\src\main\AndroidManifest.xml:17:9-88
+ADDED from C:\Users\DJH\Desktop\Quest\App\Quest\app\src\main\AndroidManifest.xml:17:9-88
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\DJH\.gradle\caches\transforms-1\files-1.1\play-services-maps-17.0.0.aar\aaaa95cf66f2ca38a975cbd27c0c7cdf\AndroidManifest.xml:33:9-35:40
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\DJH\.gradle\caches\transforms-1\files-1.1\play-services-maps-17.0.0.aar\aaaa95cf66f2ca38a975cbd27c0c7cdf\AndroidManifest.xml:33:9-35:40
 	android:required
-		ADDED from C:\Users\DJH\Desktop\SLT_project\app\Quest\app\src\main\AndroidManifest.xml:17:61-85
+		ADDED from C:\Users\DJH\Desktop\Quest\App\Quest\app\src\main\AndroidManifest.xml:17:61-85
 	android:name
-		ADDED from C:\Users\DJH\Desktop\SLT_project\app\Quest\app\src\main\AndroidManifest.xml:17:23-60
+		ADDED from C:\Users\DJH\Desktop\Quest\App\Quest\app\src\main\AndroidManifest.xml:17:23-60
 meta-data#com.google.android.geo.API_KEY
-ADDED from C:\Users\DJH\Desktop\SLT_project\app\Quest\app\src\main\AndroidManifest.xml:19:9-20:71
+ADDED from C:\Users\DJH\Desktop\Quest\App\Quest\app\src\main\AndroidManifest.xml:19:9-20:71
 	android:value
-		ADDED from C:\Users\DJH\Desktop\SLT_project\app\Quest\app\src\main\AndroidManifest.xml:20:13-68
+		ADDED from C:\Users\DJH\Desktop\Quest\App\Quest\app\src\main\AndroidManifest.xml:20:13-68
 	android:name
-		ADDED from C:\Users\DJH\Desktop\SLT_project\app\Quest\app\src\main\AndroidManifest.xml:19:20-65
+		ADDED from C:\Users\DJH\Desktop\Quest\App\Quest\app\src\main\AndroidManifest.xml:19:20-65
 activity#org.slt.android.quest.MainActivity
-ADDED from C:\Users\DJH\Desktop\SLT_project\app\Quest\app\src\main\AndroidManifest.xml:22:9-28:20
+ADDED from C:\Users\DJH\Desktop\Quest\App\Quest\app\src\main\AndroidManifest.xml:22:9-28:20
 	android:name
-		ADDED from C:\Users\DJH\Desktop\SLT_project\app\Quest\app\src\main\AndroidManifest.xml:22:19-47
+		ADDED from C:\Users\DJH\Desktop\Quest\App\Quest\app\src\main\AndroidManifest.xml:22:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\DJH\Desktop\SLT_project\app\Quest\app\src\main\AndroidManifest.xml:23:13-27:29
+ADDED from C:\Users\DJH\Desktop\Quest\App\Quest\app\src\main\AndroidManifest.xml:23:13-27:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\DJH\Desktop\SLT_project\app\Quest\app\src\main\AndroidManifest.xml:24:17-69
+ADDED from C:\Users\DJH\Desktop\Quest\App\Quest\app\src\main\AndroidManifest.xml:24:17-69
 	android:name
-		ADDED from C:\Users\DJH\Desktop\SLT_project\app\Quest\app\src\main\AndroidManifest.xml:24:25-66
+		ADDED from C:\Users\DJH\Desktop\Quest\App\Quest\app\src\main\AndroidManifest.xml:24:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\DJH\Desktop\SLT_project\app\Quest\app\src\main\AndroidManifest.xml:26:17-77
+ADDED from C:\Users\DJH\Desktop\Quest\App\Quest\app\src\main\AndroidManifest.xml:26:17-77
 	android:name
-		ADDED from C:\Users\DJH\Desktop\SLT_project\app\Quest\app\src\main\AndroidManifest.xml:26:27-74
+		ADDED from C:\Users\DJH\Desktop\Quest\App\Quest\app\src\main\AndroidManifest.xml:26:27-74
 activity#org.slt.android.quest.LoadingActivity
-ADDED from C:\Users\DJH\Desktop\SLT_project\app\Quest\app\src\main\AndroidManifest.xml:29:9-31:74
-	android:theme
-		ADDED from C:\Users\DJH\Desktop\SLT_project\app\Quest\app\src\main\AndroidManifest.xml:31:13-71
+ADDED from C:\Users\DJH\Desktop\Quest\App\Quest\app\src\main\AndroidManifest.xml:29:9-30:47
 	android:name
-		ADDED from C:\Users\DJH\Desktop\SLT_project\app\Quest\app\src\main\AndroidManifest.xml:30:13-44
+		ADDED from C:\Users\DJH\Desktop\Quest\App\Quest\app\src\main\AndroidManifest.xml:30:13-44
 activity#org.slt.android.quest.LoginActivity
-ADDED from C:\Users\DJH\Desktop\SLT_project\app\Quest\app\src\main\AndroidManifest.xml:32:9-34:60
-	android:theme
-		ADDED from C:\Users\DJH\Desktop\SLT_project\app\Quest\app\src\main\AndroidManifest.xml:34:13-57
+ADDED from C:\Users\DJH\Desktop\Quest\App\Quest\app\src\main\AndroidManifest.xml:31:9-32:45
 	android:name
-		ADDED from C:\Users\DJH\Desktop\SLT_project\app\Quest\app\src\main\AndroidManifest.xml:33:13-42
+		ADDED from C:\Users\DJH\Desktop\Quest\App\Quest\app\src\main\AndroidManifest.xml:32:13-42
 activity#org.slt.android.quest.ChatActivity
-ADDED from C:\Users\DJH\Desktop\SLT_project\app\Quest\app\src\main\AndroidManifest.xml:35:9-37:45
-	android:launchMode
-		ADDED from C:\Users\DJH\Desktop\SLT_project\app\Quest\app\src\main\AndroidManifest.xml:37:13-43
+ADDED from C:\Users\DJH\Desktop\Quest\App\Quest\app\src\main\AndroidManifest.xml:33:9-34:44
 	android:name
-		ADDED from C:\Users\DJH\Desktop\SLT_project\app\Quest\app\src\main\AndroidManifest.xml:36:13-41
+		ADDED from C:\Users\DJH\Desktop\Quest\App\Quest\app\src\main\AndroidManifest.xml:34:13-41
 activity#org.slt.android.quest.MapActivity
-ADDED from C:\Users\DJH\Desktop\SLT_project\app\Quest\app\src\main\AndroidManifest.xml:38:9-40:45
-	android:launchMode
-		ADDED from C:\Users\DJH\Desktop\SLT_project\app\Quest\app\src\main\AndroidManifest.xml:40:13-43
+ADDED from C:\Users\DJH\Desktop\Quest\App\Quest\app\src\main\AndroidManifest.xml:35:9-36:42
 	android:name
-		ADDED from C:\Users\DJH\Desktop\SLT_project\app\Quest\app\src\main\AndroidManifest.xml:39:13-40
+		ADDED from C:\Users\DJH\Desktop\Quest\App\Quest\app\src\main\AndroidManifest.xml:36:13-40
 activity#org.slt.android.quest.ProfileActivity
-ADDED from C:\Users\DJH\Desktop\SLT_project\app\Quest\app\src\main\AndroidManifest.xml:41:9-43:45
-	android:launchMode
-		ADDED from C:\Users\DJH\Desktop\SLT_project\app\Quest\app\src\main\AndroidManifest.xml:43:13-43
+ADDED from C:\Users\DJH\Desktop\Quest\App\Quest\app\src\main\AndroidManifest.xml:37:9-38:47
 	android:name
-		ADDED from C:\Users\DJH\Desktop\SLT_project\app\Quest\app\src\main\AndroidManifest.xml:42:13-44
+		ADDED from C:\Users\DJH\Desktop\Quest\App\Quest\app\src\main\AndroidManifest.xml:38:13-44
 activity#org.slt.android.quest.CreateAccountActivity
-ADDED from C:\Users\DJH\Desktop\SLT_project\app\Quest\app\src\main\AndroidManifest.xml:44:9-46:45
-	android:launchMode
-		ADDED from C:\Users\DJH\Desktop\SLT_project\app\Quest\app\src\main\AndroidManifest.xml:46:13-43
+ADDED from C:\Users\DJH\Desktop\Quest\App\Quest\app\src\main\AndroidManifest.xml:39:9-40:53
 	android:name
-		ADDED from C:\Users\DJH\Desktop\SLT_project\app\Quest\app\src\main\AndroidManifest.xml:45:13-50
+		ADDED from C:\Users\DJH\Desktop\Quest\App\Quest\app\src\main\AndroidManifest.xml:40:13-50
 uses-sdk
-INJECTED from C:\Users\DJH\Desktop\SLT_project\app\Quest\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\DJH\Desktop\SLT_project\app\Quest\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\DJH\Desktop\SLT_project\app\Quest\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\DJH\Desktop\Quest\App\Quest\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\DJH\Desktop\Quest\App\Quest\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\DJH\Desktop\Quest\App\Quest\app\src\main\AndroidManifest.xml
 MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\DJH\.gradle\caches\transforms-1\files-1.1\appcompat-1.0.0.aar\5a40025c7e110618484869699ed03bec\AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\DJH\.gradle\caches\transforms-1\files-1.1\appcompat-1.0.0.aar\5a40025c7e110618484869699ed03bec\AndroidManifest.xml:20:5-44
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\DJH\.gradle\caches\transforms-1\files-1.1\constraintlayout-1.1.3.aar\e0280d8ff06fd4bda581e58b309d1e54\AndroidManifest.xml:5:5-7:41
@@ -178,6 +167,8 @@ MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\DJH\.gra
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\DJH\.gradle\caches\transforms-1\files-1.1\play-services-maps-17.0.0.aar\aaaa95cf66f2ca38a975cbd27c0c7cdf\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\DJH\.gradle\caches\transforms-1\files-1.1\play-services-location-17.0.0.aar\23969cfc768e711cef7f343e6bda61c7\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\DJH\.gradle\caches\transforms-1\files-1.1\play-services-location-17.0.0.aar\23969cfc768e711cef7f343e6bda61c7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.cardview:cardview:1.0.0-rc01] C:\Users\DJH\.gradle\caches\transforms-1\files-1.1\cardview-1.0.0-rc01.aar\ef89f9562ede6468ef409b48be904032\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0-rc01] C:\Users\DJH\.gradle\caches\transforms-1\files-1.1\cardview-1.0.0-rc01.aar\ef89f9562ede6468ef409b48be904032\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\DJH\.gradle\caches\transforms-1\files-1.1\play-services-base-17.0.0.aar\b64da54b2cc83ce5b26c9ab6c7f48c56\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\DJH\.gradle\caches\transforms-1\files-1.1\play-services-base-17.0.0.aar\b64da54b2cc83ce5b26c9ab6c7f48c56\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\DJH\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-17.0.0.aar\f35a029f629ee3ea3ae863b588462907\AndroidManifest.xml:20:5-44
@@ -236,16 +227,16 @@ MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\DJH\.gradle\caches\
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\DJH\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.0.aar\9b78ba33c7de11043d39432b4a4d87c6\AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\DJH\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\ac2038d32b68dff069e39f2c41c4b276\AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\DJH\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\ac2038d32b68dff069e39f2c41c4b276\AndroidManifest.xml:20:5-44
-INJECTED from C:\Users\DJH\Desktop\SLT_project\app\Quest\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\DJH\Desktop\SLT_project\app\Quest\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\DJH\Desktop\Quest\App\Quest\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\DJH\Desktop\Quest\App\Quest\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\DJH\Desktop\SLT_project\app\Quest\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\DJH\Desktop\SLT_project\app\Quest\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\DJH\Desktop\SLT_project\app\Quest\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\DJH\Desktop\Quest\App\Quest\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\DJH\Desktop\Quest\App\Quest\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\DJH\Desktop\Quest\App\Quest\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\DJH\Desktop\SLT_project\app\Quest\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\DJH\Desktop\SLT_project\app\Quest\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\DJH\Desktop\SLT_project\app\Quest\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\DJH\Desktop\Quest\App\Quest\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\DJH\Desktop\Quest\App\Quest\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\DJH\Desktop\Quest\App\Quest\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\DJH\.gradle\caches\transforms-1\files-1.1\play-services-maps-17.0.0.aar\aaaa95cf66f2ca38a975cbd27c0c7cdf\AndroidManifest.xml:23:5-79
 	android:name

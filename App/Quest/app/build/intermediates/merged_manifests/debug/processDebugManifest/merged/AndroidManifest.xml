@@ -44,24 +44,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name="org.slt.android.quest.LoadingActivity"
-            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
-        <activity
-            android:name="org.slt.android.quest.LoginActivity"
-            android:theme="@string/title_activity_login" />
-        <activity
-            android:name="org.slt.android.quest.ChatActivity"
-            android:launchMode="singleTop" />
-        <activity
-            android:name="org.slt.android.quest.MapActivity"
-            android:launchMode="singleTop" />
-        <activity
-            android:name="org.slt.android.quest.ProfileActivity"
-            android:launchMode="singleTop" />
-        <activity
-            android:name="org.slt.android.quest.CreateAccountActivity"
-            android:launchMode="singleTop" />
+        <activity android:name="org.slt.android.quest.LoadingActivity" />
+        <activity android:name="org.slt.android.quest.LoginActivity" />
+        <activity android:name="org.slt.android.quest.ChatActivity" />
+        <activity android:name="org.slt.android.quest.MapActivity" />
+        <activity android:name="org.slt.android.quest.ProfileActivity" />
+        <activity android:name="org.slt.android.quest.CreateAccountActivity" />
         <activity
             android:name="com.google.android.gms.common.api.GoogleApiActivity"
             android:exported="false"
