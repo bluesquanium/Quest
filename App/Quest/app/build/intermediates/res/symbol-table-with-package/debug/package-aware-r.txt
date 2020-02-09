@@ -1258,6 +1258,7 @@ id media_actions
 id message
 id messageEditText
 id messageImageView
+id messageRecyclerView
 id messageTextView
 id messengerImageView
 id messengerTextView
