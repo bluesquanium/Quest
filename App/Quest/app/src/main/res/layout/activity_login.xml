@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
+<androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -53,7 +53,7 @@
                 android:ems="10"
                 android:hint="EMAIL"
                 android:inputType="textEmailAddress"
-                android:singleLine="true" />
+                android:singleLine="true"/>
 
             <EditText
                 android:id="@+id/password"
@@ -81,7 +81,7 @@
                 android:layout_width="350dp"
                 android:layout_height="wrap_content"
                 android:background="#9D5CBB"
-                android:onClick="login"
+                android:onClick="onLoginButtonClicked"
                 android:text="로그인"
                 android:textColor="#FFFFFF"
                 android:textStyle="bold" />
@@ -105,7 +105,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:onClick="findid"
+                    android:onClick="onFindIdButtonClicked"
                     android:text="아이디 찾기" />
 
                 <TextView
@@ -113,7 +113,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:onClick="findpassword"
+                    android:onClick="onFindPasswordButtonClicked"
                     android:text="비밀번호 찾기" />
             </LinearLayout>
         </LinearLayout>
@@ -255,8 +255,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
                 android:gravity="center_horizontal"
-                android:onClick="signup"
+                android:onClick="onCreateAccountButtonClicked"
                 android:text="간편 회원가입" />
         </LinearLayout>
     </LinearLayout>
-</android.support.constraint.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

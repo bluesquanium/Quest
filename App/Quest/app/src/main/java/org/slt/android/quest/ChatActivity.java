@@ -2,8 +2,9 @@ package org.slt.android.quest;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class ChatActivity extends AppCompatActivity {
     public static final int MYACITIVITY = Const.ACTIVITYCHAT;
@@ -16,6 +17,7 @@ public class ChatActivity extends AppCompatActivity {
 
     public void onProfileMenuButtonClicked(View v) {
         if (MYACITIVITY != Const.ACTIVITYPROFILE) {
+            finish();
             Intent intent = new Intent(getApplicationContext(), ProfileActivity.class);
             startActivity(intent);
         }
@@ -23,6 +25,7 @@ public class ChatActivity extends AppCompatActivity {
 
     public void onMapMenuButtonClicked(View v) {
         if (MYACITIVITY != Const.ACTIVITYMAP) {
+            finish();
             Intent intent = new Intent(getApplicationContext(), MapActivity.class);
             startActivity(intent);
         }
@@ -30,8 +33,18 @@ public class ChatActivity extends AppCompatActivity {
 
     public void onChatMenuButtonClicked(View v) {
         if (MYACITIVITY != Const.ACTIVITYCHAT) {
+            finish();
             Intent intent = new Intent(getApplicationContext(), ChatActivity.class);
             startActivity(intent);
         }
+    }
+
+    //백버튼 컨트롤
+
+    @Override
+    public void onBackPressed() {
+        finish();
+        Intent intent = new Intent(getApplicationContext(), MapActivity.class);
+        startActivity(intent);
     }
 }
