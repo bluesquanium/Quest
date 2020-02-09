@@ -1,7 +1,9 @@
 package org.slt.android.quest;
 
 import android.app.Activity;
+import android.app.AlertDialog;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.KeyEvent;
@@ -11,6 +13,8 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import androidx.core.app.ActivityCompat;
 
 public class LoginActivity extends Activity {
     public static final String ID = "test";
@@ -128,6 +132,13 @@ public class LoginActivity extends Activity {
             }
         });
 
+    }
+
+    //백버튼 컨트롤
+
+    @Override
+    public void onBackPressed() {
+        ActivityCompat.finishAffinity(this);
     }
 
 }

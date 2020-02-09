@@ -1,13 +1,14 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:2:1-50:12
-INJECTED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:2:1-50:12
-INJECTED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:2:1-50:12
-INJECTED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:2:1-50:12
+ADDED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:2:1-44:12
 MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\appcompat-1.0.0.aar\ed291f17a63404e0fa40afd71cfeab3a\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\constraintlayout-1.1.3.aar\fc18237e95f7e2e575e6784b450609b5\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\play-services-maps-17.0.0.aar\34910ba8a6df3460e99eddb50001ea5a\AndroidManifest.xml:17:1-38:12
 MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\play-services-location-17.0.0.aar\92ae089f582cbeb21d43ef5750a09dfc\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.cardview:cardview:1.0.0-rc01] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\cardview-1.0.0-rc01.aar\03740897e10a9f49fcea26b1d61d987d\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\play-services-base-17.0.0.aar\0eafcb2299c18233bd0536fc7a2a214b\AndroidManifest.xml:17:1-29:12
 MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-17.0.0.aar\d83d940673d8849826c1cd64deffc0df\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\play-services-tasks-17.0.0.aar\04b48ea4cdb588de73592839c44c13df\AndroidManifest.xml:2:1-9:12
@@ -37,20 +38,20 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Bluesquanium\
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.0.0.aar\19ad32ac52e9afff4ea0e0b629db4852\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.0.aar\6156a80d1ffa8d33c29987fc03fc3040\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\cbe459ebe4fb1e35cfd6f8cd77bfc5ef\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:2:1-50:12
-INJECTED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:2:1-50:12
-INJECTED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:2:1-50:12
+INJECTED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:2:1-44:12
 	package
 		ADDED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:3:5-36
 		INJECTED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:2:1-50:12
+		ADDED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:2:1-44:12
 		INJECTED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:2:1-50:12
+		ADDED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:2:1-44:12
 		INJECTED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:2:11-69
@@ -69,7 +70,7 @@ MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Bluesqua
 	android:name
 		ADDED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:7:22-64
 application
-ADDED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:9:5-48:19
+ADDED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:9:5-42:19
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\constraintlayout-1.1.3.aar\fc18237e95f7e2e575e6784b450609b5\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\constraintlayout-1.1.3.aar\fc18237e95f7e2e575e6784b450609b5\AndroidManifest.xml:9:5-20
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\play-services-maps-17.0.0.aar\34910ba8a6df3460e99eddb50001ea5a\AndroidManifest.xml:30:5-36:19
@@ -131,41 +132,29 @@ ADDED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\Androi
 	android:name
 		ADDED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:26:27-74
 activity#org.slt.android.quest.LoadingActivity
-ADDED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:29:9-31:74
-	android:theme
-		ADDED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:31:13-71
+ADDED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:29:9-30:47
 	android:name
 		ADDED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:30:13-44
 activity#org.slt.android.quest.LoginActivity
-ADDED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:32:9-34:60
-	android:theme
-		ADDED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:34:13-57
+ADDED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:31:9-32:45
 	android:name
-		ADDED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:33:13-42
+		ADDED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:32:13-42
 activity#org.slt.android.quest.ChatActivity
-ADDED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:35:9-37:45
-	android:launchMode
-		ADDED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:37:13-43
+ADDED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:33:9-34:44
 	android:name
-		ADDED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:36:13-41
+		ADDED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:34:13-41
 activity#org.slt.android.quest.MapActivity
-ADDED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:38:9-40:45
-	android:launchMode
-		ADDED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:40:13-43
+ADDED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:35:9-36:42
 	android:name
-		ADDED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:39:13-40
+		ADDED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:36:13-40
 activity#org.slt.android.quest.ProfileActivity
-ADDED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:41:9-43:45
-	android:launchMode
-		ADDED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:43:13-43
+ADDED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:37:9-38:47
 	android:name
-		ADDED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:42:13-44
+		ADDED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:38:13-44
 activity#org.slt.android.quest.CreateAccountActivity
-ADDED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:44:9-46:45
-	android:launchMode
-		ADDED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:46:13-43
+ADDED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:39:9-40:53
 	android:name
-		ADDED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:45:13-50
+		ADDED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml:40:13-50
 uses-sdk
 INJECTED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Bluesquanium\AndroidStudioProjects\Quest\app\src\main\AndroidManifest.xml
@@ -178,6 +167,8 @@ MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Bluesqua
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\play-services-maps-17.0.0.aar\34910ba8a6df3460e99eddb50001ea5a\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\play-services-location-17.0.0.aar\92ae089f582cbeb21d43ef5750a09dfc\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\play-services-location-17.0.0.aar\92ae089f582cbeb21d43ef5750a09dfc\AndroidManifest.xml:5:5-44
+MERGED from [androidx.cardview:cardview:1.0.0-rc01] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\cardview-1.0.0-rc01.aar\03740897e10a9f49fcea26b1d61d987d\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0-rc01] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\cardview-1.0.0-rc01.aar\03740897e10a9f49fcea26b1d61d987d\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\play-services-base-17.0.0.aar\0eafcb2299c18233bd0536fc7a2a214b\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\play-services-base-17.0.0.aar\0eafcb2299c18233bd0536fc7a2a214b\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\Bluesquanium\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-17.0.0.aar\d83d940673d8849826c1cd64deffc0df\AndroidManifest.xml:20:5-44
