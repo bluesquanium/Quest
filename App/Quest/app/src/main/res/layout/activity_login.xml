@@ -179,16 +179,13 @@
                     android:onClick="googlelogin"
                     app:srcCompat="@drawable/google" />
 
-                <Button
-                    android:id="@+id/googleLoginButton"
+                <com.google.android.gms.common.SignInButton
+                    android:id="@+id/sign_in_button"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_weight="6"
-                    android:background="#DC4A38"
-                    android:onClick="googlelogin"
-                    android:text="구글로 로그인"
-                    android:textColor="#FFFFFF"
-                    android:textStyle="bold" />
+                    android:layout_centerInParent="true"
+                    android:visibility="visible"
+                    android:layout_gravity="center"/>
             </LinearLayout>
 
             <LinearLayout

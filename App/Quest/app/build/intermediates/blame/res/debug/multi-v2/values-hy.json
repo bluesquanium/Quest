@@ -4,41 +4,7 @@
             "outputFile": "C:\\Users\\Bluesquanium\\AndroidStudioProjects\\Quest\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hy\\values-hy.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Bluesquanium\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.0.0.aar\\5c5539d9631dd8678b0438c432941644\\res\\values-hy\\values-hy.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "48",
-                        "startColumns": "4",
-                        "startOffsets": "5688",
-                        "endColumns": "100",
-                        "endOffsets": "5784"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Bluesquanium\\.gradle\\caches\\transforms-1\\files-1.1\\jetified-play-services-basement-17.0.0.aar\\d686fb3cd76c52ec2f5b9d12de8bcf36\\res\\values-hy\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "247",
-                        "endColumns": "209",
-                        "endOffsets": "456"
-                    },
-                    "to": {
-                        "startLines": "37",
-                        "startColumns": "4",
-                        "startOffsets": "4003",
-                        "endColumns": "209",
-                        "endOffsets": "4208"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Bluesquanium\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\0eafcb2299c18233bd0536fc7a2a214b\\res\\values-hy\\values.xml",
+                    "source": "C:\\Users\\Bluesquanium\\.gradle\\caches\\transforms-2\\files-2.1\\ec90ef03e9ce29339495ff9d0cb5fb37\\play-services-base-17.0.0\\res\\values-hy\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -55,7 +21,41 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Bluesquanium\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-1.0.0.aar\\ed291f17a63404e0fa40afd71cfeab3a\\res\\values-hy\\values-hy.xml",
+                    "source": "C:\\Users\\Bluesquanium\\.gradle\\caches\\transforms-2\\files-2.1\\50c25a90bb428a8f38b179c0bd7ad17c\\jetified-play-services-basement-17.0.0\\res\\values-hy\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "209",
+                        "endOffsets": "456"
+                    },
+                    "to": {
+                        "startLines": "37",
+                        "startColumns": "4",
+                        "startOffsets": "4003",
+                        "endColumns": "209",
+                        "endOffsets": "4208"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Bluesquanium\\.gradle\\caches\\transforms-2\\files-2.1\\36ed631be5902984a5469c5d6e6d4d97\\core-1.0.0\\res\\values-hy\\values-hy.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "48",
+                        "startColumns": "4",
+                        "startOffsets": "5688",
+                        "endColumns": "100",
+                        "endOffsets": "5784"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Bluesquanium\\.gradle\\caches\\transforms-2\\files-2.1\\ec8551eb63d55c31d67853c85a0f0f09\\appcompat-1.0.0\\res\\values-hy\\values-hy.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
