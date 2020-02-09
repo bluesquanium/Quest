@@ -778,6 +778,7 @@ id always
 id amountSeekBar
 id async
 id auto
+id backButton
 id barrier
 id beginning
 id blocking
@@ -788,8 +789,10 @@ id center
 id center_horizontal
 id center_vertical
 id chains
+id chatBoardView
 id chatMenuButton
 id chatView
+id chatboardMenuButton
 id checkbox
 id chronometer
 id clip_horizontal
@@ -904,6 +907,9 @@ id radio
 id right
 id right_icon
 id right_side
+id room1Button
+id room2Button
+id room3Button
 id satellite
 id screen
 id scrollIndicatorDown
@@ -937,6 +943,7 @@ id src_over
 id standard
 id start
 id statusBarView
+id statusBarView2
 id submenuarrow
 id submit_area
 id tabMode
@@ -995,7 +1002,8 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
-layout activity_chat
+layout activity_chatboard
+layout activity_chatroom
 layout activity_create_account
 layout activity_loading
 layout activity_login

@@ -55,12 +55,12 @@
             android:text="quest" />
 
         <Button
-            android:id="@+id/chatMenuButton"
+            android:id="@+id/chatboardMenuButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="right"
             android:layout_weight="1"
-            android:onClick="onChatMenuButtonClicked"
+            android:onClick="onChatboardMenuButtonClicked"
             android:text="chat" />
     </LinearLayout>
 

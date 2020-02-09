@@ -46,7 +46,8 @@
         </activity>
         <activity android:name="org.slt.android.quest.LoadingActivity" />
         <activity android:name="org.slt.android.quest.LoginActivity" />
-        <activity android:name="org.slt.android.quest.ChatActivity" />
+        <activity android:name="org.slt.android.quest.ChatboardActivity" />
+        <activity android:name="org.slt.android.quest.ChatroomActivity" />
         <activity android:name="org.slt.android.quest.MapActivity" />
         <activity android:name="org.slt.android.quest.ProfileActivity" />
         <activity android:name="org.slt.android.quest.CreateAccountActivity" />

@@ -31,7 +31,9 @@
         <activity
             android:name=".LoginActivity" />
         <activity
-            android:name=".ChatActivity" />
+            android:name=".ChatboardActivity" />
+        <activity
+            android:name=".ChatroomActivity" />
         <activity
             android:name=".MapActivity"/>
         <activity

@@ -784,10 +784,6 @@
         "source": "C:\\Users\\Bluesquanium\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-1.0.0.aar\\ed291f17a63404e0fa40afd71cfeab3a\\res\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
     },
     {
-        "merged": "C:\\Users\\Bluesquanium\\AndroidStudioProjects\\Quest\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_chat.xml.flat",
-        "source": "C:\\Users\\Bluesquanium\\AndroidStudioProjects\\Quest\\app\\src\\main\\res\\layout\\activity_chat.xml"
-    },
-    {
         "merged": "C:\\Users\\Bluesquanium\\AndroidStudioProjects\\Quest\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_action_tombstone.xml.flat",
         "source": "C:\\Users\\Bluesquanium\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.0.0.aar\\5c5539d9631dd8678b0438c432941644\\res\\layout-v21\\notification_action_tombstone.xml"
     },
@@ -886,6 +882,10 @@
     {
         "merged": "C:\\Users\\Bluesquanium\\AndroidStudioProjects\\Quest\\app\\build\\intermediates\\res\\merged\\debug\\color_common_google_signin_btn_tint.xml.flat",
         "source": "C:\\Users\\Bluesquanium\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\0eafcb2299c18233bd0536fc7a2a214b\\res\\color\\common_google_signin_btn_tint.xml"
+    },
+    {
+        "merged": "C:\\Users\\Bluesquanium\\AndroidStudioProjects\\Quest\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_chatboard.xml.flat",
+        "source": "C:\\Users\\Bluesquanium\\AndroidStudioProjects\\Quest\\app\\src\\main\\res\\layout\\activity_chatboard.xml"
     },
     {
         "merged": "C:\\Users\\Bluesquanium\\AndroidStudioProjects\\Quest\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_select_dialog_material.xml.flat",
@@ -1650,6 +1650,10 @@
     {
         "merged": "C:\\Users\\Bluesquanium\\AndroidStudioProjects\\Quest\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_cab_background_top_material.xml.flat",
         "source": "C:\\Users\\Bluesquanium\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-1.0.0.aar\\ed291f17a63404e0fa40afd71cfeab3a\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Bluesquanium\\AndroidStudioProjects\\Quest\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_chatroom.xml.flat",
+        "source": "C:\\Users\\Bluesquanium\\AndroidStudioProjects\\Quest\\app\\src\\main\\res\\layout\\activity_chatroom.xml"
     },
     {
         "merged": "C:\\Users\\Bluesquanium\\AndroidStudioProjects\\Quest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
