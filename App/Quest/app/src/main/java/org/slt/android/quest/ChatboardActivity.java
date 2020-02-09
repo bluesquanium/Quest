@@ -6,13 +6,13 @@ import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class ChatActivity extends AppCompatActivity {
-    public static final int MYACITIVITY = Const.ACTIVITYCHAT;
+public class ChatboardActivity extends AppCompatActivity {
+    public static final int MYACITIVITY = Const.ACTIVITYCHATBOARD;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_chat);
+        setContentView(R.layout.activity_chatboard);
     }
 
     public void onProfileMenuButtonClicked(View v) {
@@ -31,12 +31,17 @@ public class ChatActivity extends AppCompatActivity {
         }
     }
 
-    public void onChatMenuButtonClicked(View v) {
-        if (MYACITIVITY != Const.ACTIVITYCHAT) {
+    public void onChatboardMenuButtonClicked(View v) {
+        if (MYACITIVITY != Const.ACTIVITYCHATBOARD) {
             finish();
-            Intent intent = new Intent(getApplicationContext(), ChatActivity.class);
+            Intent intent = new Intent(getApplicationContext(), ChatboardActivity.class);
             startActivity(intent);
         }
+    }
+
+    public void onRoomButtonClicked(View v) {
+        Intent intent = new Intent(getApplicationContext(), ChatroomActivity.class);
+        startActivity(intent);
     }
 
     //백버튼 컨트롤
