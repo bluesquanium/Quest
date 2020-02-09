@@ -1,13 +1,15 @@
 package org.slt.android.quest;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 
 public class MainActivity extends AppCompatActivity {
     public static final int MYACITIVITY = Const.ACTIVITYMAIN;
@@ -17,6 +19,10 @@ public class MainActivity extends AppCompatActivity {
     public static final int START_LOADING = 101;
     public static final int START_LOGIN = 103;
     public static final int START_MAP = 105;
+
+    // Firebase instance variables
+    private FirebaseAuth mFirebaseAuth;
+    private FirebaseUser mFirebaseUser;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,22 +40,21 @@ public class MainActivity extends AppCompatActivity {
 
         switch(requestCode){
             case START_LOADING:
-                if(true){
+                //Initialize Firebase Auth
+                mFirebaseAuth = FirebaseAuth.getInstance();
+                mFirebaseUser = mFirebaseAuth.getCurrentUser();
+                if(mFirebaseUser == null) {
+                    //Not signed in, launch the Sign In activity
                     Intent intent = new Intent(getApplicationContext(), LoginActivity.class);
                     startActivityForResult(intent, START_LOGIN);
                 } else {
-                    Toast.makeText(getApplicationContext(),
-                            "Error Loading login page", Toast.LENGTH_LONG).show();
+                    Intent intent = new Intent(getApplicationContext(), MapActivity.class);
+                    startActivityForResult(intent, START_MAP);
                 }
                 break;
             case START_LOGIN:
-                if(true){
-                    Intent intent = new Intent(getApplicationContext(), MapActivity.class);
-                    startActivityForResult(intent, START_MAP);
-                } else {
-                    Toast.makeText(getApplicationContext(),
-                            "Error Loading login page", Toast.LENGTH_LONG).show();
-                }
+                Intent intent = new Intent(getApplicationContext(), MapActivity.class);
+                startActivityForResult(intent, START_MAP);
                 break;
         }
     }

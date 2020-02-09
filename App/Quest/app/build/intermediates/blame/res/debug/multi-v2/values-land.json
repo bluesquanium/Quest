@@ -1,16 +1,35 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Bluesquanium\\Quest\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
+            "outputFile": "C:\\Users\\Bluesquanium\\AndroidStudioProjects\\Quest\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Bluesquanium\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\4d9db6ae03def255a4a5623545b5bf97\\res\\values-land\\values-land.xml",
+                    "source": "C:\\Users\\Bluesquanium\\.gradle\\caches\\transforms-2\\files-2.1\\ec8551eb63d55c31d67853c85a0f0f09\\appcompat-1.0.0\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",
                         "startOffsets": "55,125,196",
                         "endColumns": "69,70,67",
                         "endOffsets": "120,191,259"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Bluesquanium\\.gradle\\caches\\transforms-2\\files-2.1\\fbb1e1ab9ce7a4d8e0225184b84135b1\\material-1.0.0\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "10",
+                        "endOffsets": "222"
+                    },
+                    "to": {
+                        "startLines": "5",
+                        "startColumns": "4",
+                        "startOffsets": "264",
+                        "endLines": "8",
+                        "endColumns": "10",
+                        "endOffsets": "431"
                     }
                 }
             ]

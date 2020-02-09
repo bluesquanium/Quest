@@ -2,6 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="org.slt.android.quest">
 
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,6 +13,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
+        <uses-library android:name="org.apache.http.legacy" android:required="false" />
+
+        <meta-data android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBJPmg-4Vm8MUwKIicyueppuNhNGiGK9e8" />
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -17,17 +27,20 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".LoadingActivity"
-            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+            android:name=".LoadingActivity" />
         <activity
-            android:name=".LoginActivity"
-            android:theme="@string/title_activity_login" />
+            android:name=".LoginActivity" />
         <activity
-            android:name=".ChatActivity" />
+            android:name=".ChatboardActivity" />
         <activity
-            android:name=".MapActivity" />
+            android:name=".ChatroomActivity" />
+        <activity
+            android:name=".MapActivity"/>
         <activity
             android:name=".ProfileActivity" />
+        <activity
+            android:name=".CreateAccountActivity" />
+        <activity android:name=".SignInActivity" />
 
     </application>
 
