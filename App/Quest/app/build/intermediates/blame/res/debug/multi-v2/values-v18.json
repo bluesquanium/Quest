@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Bluesquanium\\AndroidStudioProjects\\Quest\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v18\\values-v18.xml",
+            "outputFile": "C:\\Users\\Bluesquanium\\Quest\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v18\\values-v18.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Bluesquanium\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-1.0.0.aar\\ed291f17a63404e0fa40afd71cfeab3a\\res\\values-v18\\values-v18.xml",
+                    "source": "C:\\Users\\Bluesquanium\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\4d9db6ae03def255a4a5623545b5bf97\\res\\values-v18\\values-v18.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

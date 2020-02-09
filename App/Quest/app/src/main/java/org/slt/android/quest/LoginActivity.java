@@ -1,7 +1,6 @@
 package org.slt.android.quest;
 
 import android.app.Activity;
-import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.KeyEvent;
@@ -13,8 +12,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class LoginActivity extends Activity {
-    public static final String ID = "test";
-    public static final String PW = "test";
+
+
 
     // UI references.
 
@@ -22,28 +21,24 @@ public class LoginActivity extends Activity {
     private EditText mPasswordView;
 
 
-    public boolean checkLogin(View view){
+    public void login(View view){
+        Toast.makeText(this, "곽창근 개띨빡", Toast.LENGTH_SHORT).show();
+
         // ID 및 Password를 Log로 확인하기
         mEmailView = (EditText) findViewById(R.id.email);
         mPasswordView = (EditText) findViewById(R.id.password);
-
-        String id = mEmailView.getText().toString();
-        String pw = mPasswordView.getText().toString();
-        Log.i("Id", id + " " + ID);
-        Log.i("password", pw + " " + PW);
-
-        if (id.equals(ID) && pw.equals(PW)) {
-            return true;
-        }
-        return false;
+        Log.i("Id", mEmailView.getText().toString());
+        Log.i("password", mPasswordView.getText().toString());
     }
 
-    public void onFindIdButtonClicked(View view){
+    public void findid(View view){
         Toast.makeText(this, "아이디 까먹었냐 바보야", Toast.LENGTH_SHORT).show();
+
     }
 
-    public void onFindPasswordButtonClicked(View view){
+    public void findpassword(View view){
         Toast.makeText(this, "비밀번호도 까먹었냐 바보야", Toast.LENGTH_SHORT).show();
+
     }
 
     public void facebooklogin(View view){
@@ -63,17 +58,8 @@ public class LoginActivity extends Activity {
 
     }
 
-    public void onCreateAccountButtonClicked(View view){
-        Intent intent = new Intent(this, CreateAccountActivity.class);
-        startActivityForResult(intent,Const.START_CREATE_ACCOUNT);
-    }
-
-    public void onLoginButtonClicked(View view){
-        if (checkLogin(view) == true) {
-            finish();
-        } else {
-            Toast.makeText(this, "도지뇬 개띨빡", Toast.LENGTH_SHORT).show();
-        }
+    public void signup(View view){
+        Toast.makeText(this, "오이이잉?", Toast.LENGTH_SHORT).show();
     }
 
     @Override
