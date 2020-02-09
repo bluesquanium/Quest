@@ -618,10 +618,10 @@ public class MapActivity extends AppCompatActivity
         }
     }
 
-    public void onChatMenuButtonClicked(View v) {
-        if (MYACITIVITY != Const.ACTIVITYCHAT) {
+    public void onChatboardMenuButtonClicked(View v) {
+        if (MYACITIVITY != Const.ACTIVITYCHATBOARD) {
             finish();
-            Intent intent = new Intent(getApplicationContext(), ChatActivity.class);
+            Intent intent = new Intent(getApplicationContext(), ChatboardActivity.class);
             startActivity(intent);
         }
     }

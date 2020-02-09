@@ -9,5 +9,6 @@ public class Const {
 
     public static final int ACTIVITYPROFILE = 1001;
     public static final int ACTIVITYMAP = 1002;
-    public static final int ACTIVITYCHAT = 1003;
+    public static final int ACTIVITYCHATBOARD = 1003;
+    public static final int ACTIVITYCHATROOM = 1300;
 }
