@@ -11,7 +11,7 @@
         android:id="@+id/logoBarView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#9D5CBB"
+        style="@style/AppLoading"
         android:gravity="center_horizontal|center_vertical"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
@@ -80,7 +80,7 @@
                 android:id="@+id/loginButton"
                 android:layout_width="350dp"
                 android:layout_height="wrap_content"
-                android:background="#9D5CBB"
+                android:background="#ff9900"
                 android:onClick="onLoginButtonClicked"
                 android:text="로그인"
                 android:textColor="#FFFFFF"
@@ -179,13 +179,18 @@
                     android:onClick="googlelogin"
                     app:srcCompat="@drawable/google" />
 
-                <com.google.android.gms.common.SignInButton
-                    android:id="@+id/sign_in_button"
+                <Button
+                    android:id="@+id/googleLoginButton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_centerInParent="true"
-                    android:visibility="visible"
-                    android:layout_gravity="center"/>
+                    android:layout_weight="6"
+                    android:background="#DC4A38"
+                    android:onClick="googlelogin"
+                    android:text="구글로 로그인"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold" />
+
+
             </LinearLayout>
 
             <LinearLayout

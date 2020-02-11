@@ -1088,6 +1088,8 @@ drawable avd_show_password
 drawable back_default
 drawable button_selector
 drawable camera
+drawable chat_empty_button
+drawable chat_full_button
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
 drawable common_google_signin_btn_icon_dark_focused
@@ -1145,6 +1147,10 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable profile_empty_button
+drawable profile_full_button
+drawable quest_empty_button
+drawable quest_full_button
 drawable seekbar_questseekbar
 drawable seekbar_questseekbar_thumb
 drawable setting
@@ -1265,6 +1271,7 @@ id forever
 id ghost_view
 id gone
 id googleImageView
+id googleLoginButton
 id googleLoginView
 id group_divider
 id groups
@@ -1671,6 +1678,8 @@ style Animation_AppCompat_Dialog
 style Animation_AppCompat_DropDownUp
 style Animation_AppCompat_Tooltip
 style Animation_Design_BottomSheetDialog
+style AppLoading
+style AppMain
 style AppTheme
 style Base_AlertDialog_AppCompat
 style Base_AlertDialog_AppCompat_Light

@@ -21,6 +21,10 @@ public class ProfileActivity extends AppCompatActivity {
         //세팅 아이콘 이미지 선언
         ImageView settingImage = (ImageView) findViewById(R.id.settingImageView);
 
+        //하단 메뉴바 이미지 변경
+        ImageView profileButtonImage = (ImageView) findViewById(R.id.profileMenuButton);
+        profileButtonImage.setImageResource(R.drawable.profile_full_button);
+
 
     }
 

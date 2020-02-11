@@ -22,6 +22,7 @@ import androidx.core.content.ContextCompat;
 import android.util.Log;
 import android.view.View;
 import android.view.WindowManager;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 import com.google.android.gms.common.ConnectionResult;
@@ -101,6 +102,10 @@ public class MapActivity extends AppCompatActivity
         SupportMapFragment supportMapFragment = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.map);
         supportMapFragment.getMapAsync(this);
+
+        //하단 메뉴바 이미지 변경
+        ImageView mainButtonImage = (ImageView) findViewById(R.id.mainMenuButton);
+        mainButtonImage.setImageResource(R.drawable.quest_full_button);
     }
     //구글맵 관련 매서드들(https://webnautes.tistory.com/1011)
 

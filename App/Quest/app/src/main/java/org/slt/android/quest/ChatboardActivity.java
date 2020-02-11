@@ -3,6 +3,7 @@ package org.slt.android.quest;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -13,6 +14,10 @@ public class ChatboardActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_chatboard);
+
+        //하단 메뉴바 이미지 변경
+        ImageView chatButtonImage = (ImageView) findViewById(R.id.chatboardMenuButton);
+        chatButtonImage.setImageResource(R.drawable.chat_full_button);
     }
 
     public void onProfileMenuButtonClicked(View v) {

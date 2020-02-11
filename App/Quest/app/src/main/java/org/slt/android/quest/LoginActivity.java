@@ -9,6 +9,7 @@ import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.inputmethod.EditorInfo;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -41,7 +42,6 @@ public class LoginActivity extends AppCompatActivity implements
     public static final String ID = "test";
     public static final String PW = "test";
 
-    private SignInButton mSignInButton;
     private GoogleApiClient mGoogleApiClient;
 
     // Firebase instance variables
@@ -131,7 +131,7 @@ public class LoginActivity extends AppCompatActivity implements
     }
 
     public void googlelogin(View view){
-
+        signIn();
     }
 
     public void naverlogin(View view){
@@ -164,10 +164,7 @@ public class LoginActivity extends AppCompatActivity implements
         mFirebaseAuth = FirebaseAuth.getInstance();
 
         //Assign fields
-        mSignInButton = (SignInButton) findViewById(R.id.sign_in_button);
-
-        //Set click listeners
-        mSignInButton.setOnClickListener(this);
+        Button googlesignin = (Button) findViewById(R.id.googleLoginButton);
 
         Toast.makeText(this, "Login page.", Toast.LENGTH_SHORT).show();
 
@@ -239,7 +236,7 @@ public class LoginActivity extends AppCompatActivity implements
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
-            case R.id.sign_in_button:
+            case R.id.googleLoginButton:
                 signIn();
                 break;
         }

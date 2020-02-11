@@ -20,7 +20,7 @@
     <item android:id="@android:id/progress" >
         <clip>
             <shape android:shape="line">
-                <stroke android:width="6dp" android:color="#9d5cbb" />
+                <stroke android:width="6dp" android:color="#ff9900" />
             </shape>
         </clip>
     </item>
