@@ -106,11 +106,11 @@
 
                     <TextView
                         android:id="@+id/introductionTextView"
+                        style="@style/AppMain"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="소개"
-                        style="@style/AppMain"
-                        android:textSize="25sp"
+                        android:textSize="20sp"
                         android:textStyle="bold" />
 
                     <TextView
@@ -122,7 +122,7 @@
                         android:layout_weight="1"
                         android:text="무엇이든 도와드릴 준비가 되어 있습니다! 저에게 맡겨만 주세요!"
                         android:textColor="#808080"
-                        android:textSize="23sp" />
+                        android:textSize="15sp" />
 
                 </LinearLayout>
 

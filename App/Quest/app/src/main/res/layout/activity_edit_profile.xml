@@ -97,6 +97,7 @@
                         android:id="@+id/profilePictureView"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
+                        android:gravity="center_horizontal"
                         android:orientation="vertical">
 
                         <LinearLayout
@@ -113,15 +114,33 @@
                                 android:adjustViewBounds="true"
                                 app:srcCompat="@drawable/test" />
 
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="380dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="20dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/nameTextView"
+                                style="@style/AppMain"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="닉네임"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
                             <TextView
                                 android:id="@+id/profileNameTextView"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:layout_marginLeft="10dp"
-                                android:layout_marginTop="10dp"
+                                android:layout_weight="2"
                                 android:text="Do Jin Hyun"
-                                style="@style/AppMain"
-                                android:textSize="30sp"
+                                android:textColor="#808080"
+                                android:textSize="20sp"
                                 android:textStyle="bold" />
 
                         </LinearLayout>
@@ -146,12 +165,29 @@
 
                         <TextView
                             android:id="@+id/introductionTextView"
+                            style="@style/AppMain"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="소개"
-                            style="@style/AppMain"
-                            android:textSize="25sp"
+                            android:textSize="20sp"
                             android:textStyle="bold" />
+
+                        <EditText
+                            android:id="@+id/introductionInputText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:gravity="start|top"
+                            android:inputType="textMultiLine" />
+
+                        <TextView
+                            android:id="@+id/introductionSaveTextView"
+                            style="@style/AppMain"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:onClick="saveintroduction"
+                            android:text="저장하기" />
 
                     </LinearLayout>
 
@@ -178,12 +214,12 @@
 
                             <TextView
                                 android:id="@+id/profileDistanceTextView"
+                                style="@style/AppMain"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
                                 android:text="거리"
-                                style="@style/AppMain"
-                                android:textSize="25sp"
+                                android:textSize="20sp"
                                 android:textStyle="bold" />
 
                             <TextView
@@ -194,7 +230,7 @@
                                 android:gravity="right"
                                 android:text="0 km"
                                 android:textColor="#808080"
-                                android:textSize="23sp"
+                                android:textSize="18sp"
                                 android:textStyle="bold" />
 
                         </LinearLayout>
@@ -233,12 +269,12 @@
 
                             <TextView
                                 android:id="@+id/profileAmountTextView"
+                                style="@style/AppMain"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
                                 android:text="금액"
-                                style="@style/AppMain"
-                                android:textSize="25sp"
+                                android:textSize="20sp"
                                 android:textStyle="bold" />
 
                             <TextView
@@ -249,7 +285,7 @@
                                 android:gravity="right|center_horizontal"
                                 android:text="0 ￦"
                                 android:textColor="#808080"
-                                android:textSize="23sp"
+                                android:textSize="18sp"
                                 android:textStyle="bold" />
 
                         </LinearLayout>
@@ -284,11 +320,11 @@
 
                         <TextView
                             android:id="@+id/profileConditionTextView"
+                            style="@style/AppMain"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="조건"
-                            style="@style/AppMain"
-                            android:textSize="25sp"
+                            android:textSize="20sp"
                             android:textStyle="bold" />
 
                     </LinearLayout>
