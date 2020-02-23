@@ -23,6 +23,7 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
+import androidx.fragment.app.Fragment;
 
 import com.theartofdev.edmodo.cropper.CropImage;
 import com.theartofdev.edmodo.cropper.CropImageView;
@@ -45,26 +46,26 @@ public class EditProfileActivity extends AppCompatActivity {
 
         //SharedPreferences를 통해 사용자 데이터 받기, 아래는 데이터 선언
 
-        SharedPreferences userintroduction = getSharedPreferences("introduction", MODE_PRIVATE);
-        SharedPreferences userdistance = getSharedPreferences("distance", MODE_PRIVATE);
-        SharedPreferences useramount = getSharedPreferences("amount", MODE_PRIVATE);
+        SharedPreferences userintroduction = getSharedPreferences("profile_introduction", MODE_PRIVATE);
+        SharedPreferences userdistance = getSharedPreferences("profile_distance", MODE_PRIVATE);
+        SharedPreferences useramount = getSharedPreferences("profile_amount", MODE_PRIVATE);
 
         //SharePreferences를 통해 넣어놓은 데이터를 확인하여 출력하기(데이터 : introduction, 없으면 빈칸)
 
         EditText introductioninputtext = (EditText) findViewById(R.id.introductionInputText);
-        introductioninputtext.setText(userintroduction.getString("introduction", ""));
+        introductioninputtext.setText(userintroduction.getString("profile_introduction", ""));
 
         //프로필 이미지 profileImage 선언
 
         profileImage = (ImageView) findViewById(R.id.profileImageView);
 
         //SharedPreferences를 통해 넣어놓은 데이터를 확인하여 출력하기(데이터 : image, profile_default.png)
-        SharedPreferences userimage = getSharedPreferences("image", MODE_PRIVATE);
-        if(userimage.getString("image", "") == ""){
+        SharedPreferences userimage = getSharedPreferences("profile_image", MODE_PRIVATE);
+        if(userimage.getString("profile_image", "") == ""){
             Bitmap basebitmap = BitmapFactory.decodeResource(getApplicationContext().getResources(), R.drawable.profile_default);
             profileImage.setImageBitmap(basebitmap);
         } else {
-            String bitmapString = userimage.getString("image", "");
+            String bitmapString = userimage.getString("profile_image", "");
             profileImage.setImageBitmap(StringToBitMap(bitmapString));
         }
 
@@ -78,8 +79,8 @@ public class EditProfileActivity extends AppCompatActivity {
         SeekBar distanceSeekBar = (SeekBar) findViewById(R.id.distanceSeekBar);
 
         //SharedPreferences를 통해 받은 거리 Int 데이터를 확인하여 설정해주기(데이터 : distance, 없으면 0)
-        distanceSeekBar.setProgress(userdistance.getInt("distance", 0));
-        distanceTextView.setText(userdistance.getInt("distance", 0) + " km");
+        distanceSeekBar.setProgress(userdistance.getInt("profile_distance", 0));
+        distanceTextView.setText(userdistance.getInt("profile_distance", 0) + " km");
 
         // 거리 seekbar 세부 설정
         distanceSeekBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
@@ -93,9 +94,9 @@ public class EditProfileActivity extends AppCompatActivity {
 
                 //SharedPreferences를 사용하여 변경된 거리 Int 데이터를 넣어주기(데이터 : distance)
 
-                SharedPreferences userdistance = getSharedPreferences("distance", MODE_PRIVATE);
+                SharedPreferences userdistance = getSharedPreferences("profile_distance", MODE_PRIVATE);
                 SharedPreferences.Editor editor = userdistance.edit();
-                editor.putInt("distance", progress);
+                editor.putInt("profile_distance", progress);
                 editor.commit();
             }
 
@@ -115,9 +116,9 @@ public class EditProfileActivity extends AppCompatActivity {
         SeekBar amountSeekbar = (SeekBar) findViewById(R.id.amountSeekBar);
 
         //SharedPreferences를 통해 받은 금액 Int 데이터를 확인하여 설정해주기(데이터 : amount, 없으면 0)
-        amountSeekbar.setProgress(useramount.getInt("amount", 0));
+        amountSeekbar.setProgress(useramount.getInt("profile_amount", 0));
         amountTextView.setText(NumberFormat.getInstance(Locale.getDefault()).
-                format(useramount.getInt("amount", 0)) + " ￦");
+                format(useramount.getInt("profile_amount", 0)) + " ￦");
 
         amountSeekbar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             int stepSize = 1000;
@@ -131,9 +132,9 @@ public class EditProfileActivity extends AppCompatActivity {
 
                 //SharedPreferences를 사용하여 변경된 금액 Int 데이터를 넣어주기(데이터 : amount)
 
-                SharedPreferences useramount = getSharedPreferences("amount", MODE_PRIVATE);
+                SharedPreferences useramount = getSharedPreferences("profile_amount", MODE_PRIVATE);
                 SharedPreferences.Editor editor = useramount.edit();
-                editor.putInt("amount", progress);
+                editor.putInt("profile_amount", progress);
                 editor.commit();
 
             }
@@ -216,9 +217,9 @@ public class EditProfileActivity extends AppCompatActivity {
                 //변환된 프로필 이미지를 Bitmap으로 변환시켜서
                 Bitmap bitmap = ((BitmapDrawable)profileImage.getDrawable()).getBitmap();
                 //SharedPreferences에 저장하기(String으로!)
-                SharedPreferences userimage = getSharedPreferences("image", MODE_PRIVATE);
+                SharedPreferences userimage = getSharedPreferences("profile_image", MODE_PRIVATE);
                 SharedPreferences.Editor editor = userimage.edit();
-                editor.putString("image", BitMapToString(bitmap));
+                editor.putString("profile_image", BitMapToString(bitmap));
                 editor.commit();
 
             } else if (resultCode == CropImage.CROP_IMAGE_ACTIVITY_RESULT_ERROR_CODE) {
@@ -229,21 +230,17 @@ public class EditProfileActivity extends AppCompatActivity {
         super.onActivityResult(requestCode, resultCode, data);
     }
 
-    public void backtoprofile(View view){
-        finish();
-        Intent intent = new Intent(getApplicationContext(), ProfileActivity.class);
-        startActivity(intent);
-    }
-
     public void saveintroduction(View view){
         EditText introductioninputtext = (EditText) findViewById(R.id.introductionInputText);
         String introductiontext = introductioninputtext.getText().toString();
         introductioninputtext.setText(introductiontext);
 
-        SharedPreferences userintroduction = getSharedPreferences("introduction", MODE_PRIVATE);
+        SharedPreferences userintroduction = getSharedPreferences("profile_introduction", MODE_PRIVATE);
         SharedPreferences.Editor editor = userintroduction.edit();
-        editor.putString("introduction", introductiontext);
+        editor.putString("profile_introduction", introductiontext);
         editor.commit();
+
+        Toast.makeText(this,"저장되었습니다.",Toast.LENGTH_SHORT).show();
     }
 
     public String BitMapToString(Bitmap bitmap){
@@ -264,13 +261,11 @@ public class EditProfileActivity extends AppCompatActivity {
         }
     }
 
-
-    //백버튼 컨트롤
-
-    @Override
-    public void onBackPressed() {
-        finish();
-        Intent intent = new Intent(getApplicationContext(), ProfileActivity.class);
+    public void backtoprofile(View view){
+        Intent intent = new Intent(getApplicationContext(), MapActivity.class);
         startActivity(intent);
+        finish();
+
     }
+
 }

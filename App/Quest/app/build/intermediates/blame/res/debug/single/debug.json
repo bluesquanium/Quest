@@ -56,6 +56,10 @@
         "source": "C:\\Users\\DJH\\.gradle\\caches\\transforms-2\\files-2.1\\ec8551eb63d55c31d67853c85a0f0f09\\appcompat-1.0.0\\res\\color-v23\\abc_tint_spinner.xml"
     },
     {
+        "merged": "C:\\Users\\DJH\\Desktop\\Quest\\App\\Quest\\app\\build\\intermediates\\res\\merged\\debug\\anim_slide_right_out.xml.flat",
+        "source": "C:\\Users\\DJH\\Desktop\\Quest\\App\\Quest\\app\\src\\main\\res\\anim\\slide_right_out.xml"
+    },
+    {
         "merged": "C:\\Users\\DJH\\Desktop\\Quest\\App\\Quest\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13_mtrl_layout_snackbar.xml.flat",
         "source": "C:\\Users\\DJH\\.gradle\\caches\\transforms-2\\files-2.1\\fbb1e1ab9ce7a4d8e0225184b84135b1\\material-1.0.0\\res\\layout-sw600dp-v13\\mtrl_layout_snackbar.xml"
     },
@@ -286,6 +290,10 @@
     {
         "merged": "C:\\Users\\DJH\\Desktop\\Quest\\App\\Quest\\app\\build\\intermediates\\res\\merged\\debug\\drawable_design_fab_background.xml.flat",
         "source": "C:\\Users\\DJH\\.gradle\\caches\\transforms-2\\files-2.1\\fbb1e1ab9ce7a4d8e0225184b84135b1\\material-1.0.0\\res\\drawable\\design_fab_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\DJH\\Desktop\\Quest\\App\\Quest\\app\\build\\intermediates\\res\\merged\\debug\\anim_slide_right_in.xml.flat",
+        "source": "C:\\Users\\DJH\\Desktop\\Quest\\App\\Quest\\app\\src\\main\\res\\anim\\slide_right_in.xml"
     },
     {
         "merged": "C:\\Users\\DJH\\Desktop\\Quest\\App\\Quest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
@@ -566,6 +574,10 @@
     {
         "merged": "C:\\Users\\DJH\\Desktop\\Quest\\App\\Quest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_chat_empty_button.png.flat",
         "source": "C:\\Users\\DJH\\Desktop\\Quest\\App\\Quest\\app\\src\\main\\res\\drawable-v24\\chat_empty_button.png"
+    },
+    {
+        "merged": "C:\\Users\\DJH\\Desktop\\Quest\\App\\Quest\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_fragment_profile.xml.flat",
+        "source": "C:\\Users\\DJH\\Desktop\\Quest\\App\\Quest\\app\\src\\main\\res\\layout\\activity_fragment_profile.xml"
     },
     {
         "merged": "C:\\Users\\DJH\\Desktop\\Quest\\App\\Quest\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
@@ -912,10 +924,6 @@
         "source": "C:\\Users\\DJH\\.gradle\\caches\\transforms-2\\files-2.1\\ec8551eb63d55c31d67853c85a0f0f09\\appcompat-1.0.0\\res\\drawable-mdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
     },
     {
-        "merged": "C:\\Users\\DJH\\Desktop\\Quest\\App\\Quest\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_profile.xml.flat",
-        "source": "C:\\Users\\DJH\\Desktop\\Quest\\App\\Quest\\app\\src\\main\\res\\layout\\activity_profile.xml"
-    },
-    {
         "merged": "C:\\Users\\DJH\\Desktop\\Quest\\App\\Quest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\DJH\\.gradle\\caches\\transforms-2\\files-2.1\\ec8551eb63d55c31d67853c85a0f0f09\\appcompat-1.0.0\\res\\drawable-hdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
     },
@@ -1148,6 +1156,10 @@
         "source": "C:\\Users\\DJH\\.gradle\\caches\\transforms-2\\files-2.1\\ec8551eb63d55c31d67853c85a0f0f09\\appcompat-1.0.0\\res\\drawable-mdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
     },
     {
+        "merged": "C:\\Users\\DJH\\Desktop\\Quest\\App\\Quest\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_fragment_chatboard.xml.flat",
+        "source": "C:\\Users\\DJH\\Desktop\\Quest\\App\\Quest\\app\\src\\main\\res\\layout\\activity_fragment_chatboard.xml"
+    },
+    {
         "merged": "C:\\Users\\DJH\\Desktop\\Quest\\App\\Quest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_design_ic_visibility.png.flat",
         "source": "C:\\Users\\DJH\\.gradle\\caches\\transforms-2\\files-2.1\\fbb1e1ab9ce7a4d8e0225184b84135b1\\material-1.0.0\\res\\drawable-xhdpi-v4\\design_ic_visibility.png"
     },
@@ -1342,6 +1354,10 @@
     {
         "merged": "C:\\Users\\DJH\\Desktop\\Quest\\App\\Quest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
         "source": "C:\\Users\\DJH\\.gradle\\caches\\transforms-2\\files-2.1\\ec8551eb63d55c31d67853c85a0f0f09\\appcompat-1.0.0\\res\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "C:\\Users\\DJH\\Desktop\\Quest\\App\\Quest\\app\\build\\intermediates\\res\\merged\\debug\\anim_slide_left_in.xml.flat",
+        "source": "C:\\Users\\DJH\\Desktop\\Quest\\App\\Quest\\app\\src\\main\\res\\anim\\slide_left_in.xml"
     },
     {
         "merged": "C:\\Users\\DJH\\Desktop\\Quest\\App\\Quest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_star_half_black_48dp.png.flat",
@@ -1696,10 +1712,6 @@
         "source": "C:\\Users\\DJH\\.gradle\\caches\\transforms-2\\files-2.1\\d5cd4c05babbe75cfdb890c5847bd9ad\\jetified-play-services-auth-16.0.1\\res\\drawable-watch-v20\\common_google_signin_btn_text_dark_normal.xml"
     },
     {
-        "merged": "C:\\Users\\DJH\\Desktop\\Quest\\App\\Quest\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_chatboard.xml.flat",
-        "source": "C:\\Users\\DJH\\Desktop\\Quest\\App\\Quest\\app\\src\\main\\res\\layout\\activity_chatboard.xml"
-    },
-    {
         "merged": "C:\\Users\\DJH\\Desktop\\Quest\\App\\Quest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_focused_holo.9.png.flat",
         "source": "C:\\Users\\DJH\\.gradle\\caches\\transforms-2\\files-2.1\\ec8551eb63d55c31d67853c85a0f0f09\\appcompat-1.0.0\\res\\drawable-xxhdpi-v4\\abc_list_focused_holo.9.png"
     },
@@ -1942,6 +1954,10 @@
     {
         "merged": "C:\\Users\\DJH\\Desktop\\Quest\\App\\Quest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_common_full_open_on_phone.png.flat",
         "source": "C:\\Users\\DJH\\.gradle\\caches\\transforms-2\\files-2.1\\ec90ef03e9ce29339495ff9d0cb5fb37\\play-services-base-17.0.0\\res\\drawable-hdpi-v4\\common_full_open_on_phone.png"
+    },
+    {
+        "merged": "C:\\Users\\DJH\\Desktop\\Quest\\App\\Quest\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_fragment_map.xml.flat",
+        "source": "C:\\Users\\DJH\\Desktop\\Quest\\App\\Quest\\app\\src\\main\\res\\layout\\activity_fragment_map.xml"
     },
     {
         "merged": "C:\\Users\\DJH\\Desktop\\Quest\\App\\Quest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_text_select_handle_left_mtrl_light.png.flat",
@@ -2378,6 +2394,10 @@
     {
         "merged": "C:\\Users\\DJH\\Desktop\\Quest\\App\\Quest\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_selector.xml.flat",
         "source": "C:\\Users\\DJH\\Desktop\\Quest\\App\\Quest\\app\\src\\main\\res\\drawable\\button_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\DJH\\Desktop\\Quest\\App\\Quest\\app\\build\\intermediates\\res\\merged\\debug\\anim_slide_left_out.xml.flat",
+        "source": "C:\\Users\\DJH\\Desktop\\Quest\\App\\Quest\\app\\src\\main\\res\\anim\\slide_left_out.xml"
     },
     {
         "merged": "C:\\Users\\DJH\\Desktop\\Quest\\App\\Quest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_pressed_holo_light.9.png.flat",

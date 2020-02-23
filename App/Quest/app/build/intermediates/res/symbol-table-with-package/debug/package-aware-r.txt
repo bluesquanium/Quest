@@ -15,6 +15,10 @@ anim design_bottom_sheet_slide_in
 anim design_bottom_sheet_slide_out
 anim design_snackbar_in
 anim design_snackbar_out
+anim slide_left_in
+anim slide_left_out
+anim slide_right_in
+anim slide_right_out
 animator design_appbar_state_list_animator
 animator design_fab_hide_motion_spec
 animator design_fab_show_motion_spec
@@ -1214,7 +1218,6 @@ id center_vertical
 id chains
 id changePictureImageView
 id chatBoardView
-id chatMenuButton
 id chatboardMenuButton
 id checkbox
 id chronometer
@@ -1526,15 +1529,16 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
-layout activity_chatboard
 layout activity_chatroom
 layout activity_create_account
 layout activity_edit_profile
+layout activity_fragment_chatboard
+layout activity_fragment_map
+layout activity_fragment_profile
 layout activity_loading
 layout activity_login
 layout activity_main
 layout activity_map
-layout activity_profile
 layout activity_sign_in
 layout crop_image_activity
 layout crop_image_view

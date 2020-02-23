@@ -112,7 +112,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:adjustViewBounds="true"
-                                app:srcCompat="@drawable/test" />
+                                app:srcCompat="@drawable/profile_default" />
 
                         </LinearLayout>
 

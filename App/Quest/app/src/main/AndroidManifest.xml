@@ -33,13 +33,9 @@
         <activity
             android:name=".LoginActivity" />
         <activity
-            android:name=".ChatboardActivity" />
-        <activity
             android:name=".ChatroomActivity" />
         <activity
             android:name=".MapActivity"/>
-        <activity
-            android:name=".ProfileActivity" />
         <activity
             android:name=".CreateAccountActivity" />
         <activity android:name=".SignInActivity" />
