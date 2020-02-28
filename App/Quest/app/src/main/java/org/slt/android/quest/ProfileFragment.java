@@ -68,6 +68,15 @@ public class ProfileFragment extends Fragment {
             }
         });
 
+        ImageView nextImage = (ImageView) v.findViewById(R.id.nextButtonImage);
+        ImageView nextImage1 = (ImageView) v.findViewById(R.id.nextButtonImage1);
+        ImageView nextImage2 = (ImageView) v.findViewById(R.id.nextButtonImage2);
+        ImageView nextImage3 = (ImageView) v.findViewById(R.id.nextButtonImage3);
+        nextImage.setImageResource(R.drawable.next_image);
+        nextImage1.setImageResource(R.drawable.next_image);
+        nextImage2.setImageResource(R.drawable.next_image);
+        nextImage3.setImageResource(R.drawable.next_image);
+
         return v;
     }
 
