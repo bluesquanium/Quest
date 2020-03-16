@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="15dp">
+
+            <ImageView
+                android:id="@+id/questIconImageView"
+                android:layout_marginTop="15dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                app:srcCompat="@drawable/delivery" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/dateTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2020. 3. 5. (목)" />
+
+            <TextView
+                android:id="@+id/questNameTextView"
+                android:layout_width="match_parent"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:text="심부름" />
+
+            <TextView
+                android:id="@+id/questAmountTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5,000 ₩" />
+
+            <Button
+                android:id="@+id/reviewButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="평가하기" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center_horizontal"
+        android:background="#BEBEBE" />
+
+    <LinearLayout
+        android:id="@+id/betweenView1"
+        android:background="#e0e0e0"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:orientation="vertical"></LinearLayout>
+
+</LinearLayout>

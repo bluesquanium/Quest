@@ -40,6 +40,8 @@
             android:name=".CreateAccountActivity" />
         <activity android:name=".SignInActivity" />
         <activity android:name=".EditProfileActivity" />
+        <activity android:name=".MyListActivity"/>
+        <activity android:name=".PopUp"/>
         <activity android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
             android:theme="@style/Base.Theme.AppCompat"/>
 

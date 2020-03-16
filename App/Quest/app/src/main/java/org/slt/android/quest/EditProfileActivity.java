@@ -11,9 +11,16 @@ import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.util.Base64;
+import android.view.Gravity;
+import android.view.LayoutInflater;
+import android.view.MotionEvent;
 import android.view.View;
+import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.ListView;
+import android.widget.PopupWindow;
 import android.widget.SeekBar;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -30,6 +37,7 @@ import com.theartofdev.edmodo.cropper.CropImageView;
 
 import java.io.ByteArrayOutputStream;
 import java.text.NumberFormat;
+import java.util.ArrayList;
 import java.util.Locale;
 
 public class EditProfileActivity extends AppCompatActivity {
@@ -38,6 +46,9 @@ public class EditProfileActivity extends AppCompatActivity {
 
     private static final int IMAGE_PICK_CODE = 1000;
     private static final int PERMISSION_CODE = 1001;
+
+    //조건 설정 관련
+    ArrayList<ConditionList> conditionList;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -149,6 +160,7 @@ public class EditProfileActivity extends AppCompatActivity {
 
             }
         });
+
     }
 
     //프로필 이미지 바꾸기
@@ -266,6 +278,46 @@ public class EditProfileActivity extends AppCompatActivity {
         startActivity(intent);
         finish();
 
+    }
+
+    public void conditionsetting(View view){
+        LayoutInflater inflater = (LayoutInflater) view.getContext().getSystemService(view.getContext().LAYOUT_INFLATER_SERVICE);
+        View popupView = inflater.inflate(R.layout.pop_up,null);
+
+        int width = LinearLayout.LayoutParams.MATCH_PARENT;
+        int height = LinearLayout.LayoutParams.MATCH_PARENT;
+
+        boolean focusable = true;
+
+        final PopupWindow popupWindow = new PopupWindow(popupView, width, height, focusable);
+
+        popupWindow.showAtLocation(view, Gravity.CENTER, 0, 0);
+
+        //조건 설정 리스트 불러오기
+        conditionList = new ArrayList<>();
+        conditionList.add(new ConditionList("심부름"));
+        conditionList.add(new ConditionList("집청소"));
+        conditionList.add(new ConditionList("가구 나르기"));
+        conditionList.add(new ConditionList("길 찾기"));
+        conditionList.add(new ConditionList("반려동물 산책"));
+        conditionList.add(new ConditionList("반려동물 돌봐주기"));
+        conditionList.add(new ConditionList("아기 돌봐주기"));
+        conditionList.add(new ConditionList("귀가길 동행"));
+        conditionList.add(new ConditionList("기타"));
+        ListView conditionListView = popupView.findViewById(R.id.conditionListView);
+        CustomConditionListAdapter customConditionListAdapter = new CustomConditionListAdapter(this, R.layout.custom_condition_list_item, conditionList);
+        conditionListView.setAdapter(customConditionListAdapter);
+
+
+        popupView.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View v, MotionEvent event) {
+
+                //Close the window when clicked
+                popupWindow.dismiss();
+                return true;
+            }
+        });
     }
 
 }
